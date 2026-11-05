@@ -1,11 +1,20 @@
 CONTRACT SENTINEL — WEJŚCIE, WYJŚCIE I GRANICE DEMO
 Stan dokumentacji sprawdzony 2026-11-05. To plan, nie wdrożone integracje.
 
+DECYZJA ZAKRESOWA UŻYTKOWNIKA — 2026-11-05
+Dzisiejszy PoC: wyłącznie prywatna rozmowa z Sentinelem. Użytkownik zadaje
+pytania i przesyła nowe umowy, a Sentinel odpowiada czytelnym raportem.
+Docelowy kanał biznesowy: Slack, gdzie użytkownik przesyła dokumenty, a system
+odpowiada. Pobieranie załączników wymaga przyszłej weryfikacji.
+Na hackathonie nie wdrażamy ani nie testujemy Slacka, emaila, Shared Bots
+ani osobnego frontendu. Poniższe alternatywy są tylko notatką badawczą.
+
 DZISIEJSZE DEMO
 Operator odgrywa użytkownika biznesowego w prywatnym czacie Sentinela.
 Pytania są zwykłym językiem; routing i recenzja są częścią konfiguracji.
-Najpierw kończymy Q&A, potem jeden scenariusz sprzeczności i jedno automatyczne
-wyzwolenie. Nie budujemy osobnego frontendu przed sprawnym przebiegiem.
+Najpierw kończymy Q&A, potem jeden scenariusz nowej umowy i sprzeczności.
+Autonomię pokazuje Sentinel samodzielnie wybudzający specjalistów i recenzenta.
+Zewnętrzne wyzwolenie nie jest warunkiem dzisiejszego PoC.
 
 RZECZYWISTY DOSTĘP DRUGIEJ OSOBY
 Prywatny bot operatora nie jest automatycznie dostępny drugiej osobie.
