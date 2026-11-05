@@ -1,73 +1,83 @@
 # Contract Sentinel
 
-**Nowa umowa nie kasuje starych zobowiązań. Nasze boty znajdują konflikt, zanim ją podpiszesz.**
+### Your next contract may break one you already signed. Four Grok Bot agents catch it before you sign.
 
-Czy nowa umowa z dostawcą albo terms & conditions nowego narzędzia nie są sprzeczne z umowami, które firma już podpisała? To powtarzalny problem wielu firm kupujących oprogramowanie, korzystających z AI i zatrudniających podwykonawców. Administracja porównuje dokumenty, a niejasności wracają jako kolejne pytania do prawników.
+**The question every company asks, again and again:** do the new supplier contract, or the terms & conditions of the new SaaS / AI tool, conflict with what we already promised our clients?
 
-Zespół chce kupić narzędzie do kopii zapasowych. Dostawca wymaga przechowywania danych przez **180 dni**. Umowa z klientem każe usunąć je **w ciągu 15 dni od zakończenia współpracy**. Kto połączy te dwa zapisy?
+Every company that buys software, adopts AI tools or hires subcontractors has this problem. Today someone in admin reads the documents side by side, and every unclear clause becomes another question for a lawyer. That is slow, it costs money, and it is easy to miss something.
 
-Contract Sentinel robi to w **Grok Bot**. Użytkownik załącza dokument i zadaje zwykłe pytanie. Sentinel sam zleca analizę innym botom, zbiera wyniki i uruchamia recenzję. Oddaje **wniosek, cytaty i konkretny następny krok**.
+> **Example from our live demo.** A backup vendor requires **180 days** of data retention. A signed client contract requires deletion **within 15 days** of termination. If you sign the vendor contract, you breach the client contract.
 
-## Co pokazaliśmy w działającym demo
-
-| Krok użytkownika | Wynik zespołu botów |
-| --- | --- |
-| „Czy ta umowa pasuje do naszych zobowiązań?” | Wykryty konflikt: DemoVault §3 kontra umowa Firmy B §6.3. Propozycja zmiany warunków. |
-| „Dostawca proponuje taką zmianę. Czy rozwiązuje wskazany problem?” | Ocena zmieniona na **warunkowo pozytywną**: po uzgodnieniu aneksu usunięcie na żądanie w 7 dni. |
-| Co trzeba zrobić dalej? | Żądanie otrzymane do **23 listopada** pozwala dotrzymać terminu **30 listopada** w scenariuszu. Pozostają zwrot danych i potwierdzenie usunięcia. |
-
-**Wartość biznesowa: oszczędność czasu administracji i ograniczenie kosztów konsultacji prawnych.** System wykonuje wstępne porównanie, wskazuje cytaty i proponuje następny krok. Administracja nie zaczyna od przeszukiwania całej paczki umów; do prawnika może skierować konkretne wyjątki i pytania wymagające rozstrzygnięcia. To mechanizm ograniczenia ręcznej pracy i rutynowych konsultacji — skalę oszczędności zweryfikujemy w pilotażu. PoC nie mierzył jeszcze ROI; decyzja pozostaje po stronie człowieka.
-
-## Cztery boty. Jeden rozmówca dla użytkownika.
+## What Grok Bot does here
 
 ```mermaid
 flowchart LR
-    U["Użytkownik<br/>pytanie + dokument"] <-->|"rozmowa prywatna"| S["Sentinel<br/>koordynacja i odpowiedź"]
-    S <-->|"zlecenie / analiza"| C["Contracts<br/>klauzule i zobowiązania"]
-    S <-->|"gdy potrzebne"| SEC["Security<br/>dane i bezpieczeństwo"]
-    S <-->|"wyniki / recenzja"| R["Reviewer<br/>cytaty i wnioski"]
+    U(["Admin / Sales<br/>document + plain question"])
+    subgraph GB["Grok Bot · 4 bots · shared files · persistent HARNESS rules"]
+        S["Sentinel<br/>coordinator"]
+        C["Contracts<br/>clauses & obligations"]
+        SEC["Security<br/>data, retention, deletion"]
+        R["Reviewer<br/>re-reads sources,<br/>rejects false alarms"]
+        KB[("Signed client contracts<br/>+ security materials")]
+    end
+    U -->|"1 · ask"| S
+    S -->|"2 · delegate in parallel"| C
+    S -->|"2 · if data is involved"| SEC
+    C -->|"3 · findings"| S
+    SEC -->|"3 · findings"| S
+    S -->|"4 · verify"| R
+    R -->|"5 · keep / soften / reject"| S
+    S -->|"6 · verdict + citations + next step"| U
+    KB -.-> C & SEC & R
 ```
 
-Sentinel deleguje zadania **automatycznie**, bez poleceń użytkownika dla poszczególnych botów. Zbiera analizy i przekazuje je Reviewerowi przed odpowiedzią. W próbie DemoVault v1 pracowały wszystkie cztery boty; przy aneksie wystarczyły Contracts i Reviewer.
+- **One chat, a whole team behind it.** The user only talks to Sentinel. Sentinel decides which specialists to involve and hands the work over through **real Grok Bot bot-to-bot messages**. Each message wakes up the next bot. Nobody prompts the specialists by hand.
+- **Shared knowledge base.** The signed contracts are stored once in Grok Bot's shared files, and every bot works from the same sources.
+- **A built-in second opinion.** Reviewer opens the original documents again and marks each finding *keep / soften / reject / needs evidence* before anything reaches the user.
+- **Taught once, applied every time.** The work rules (*HARNESS v1.1*: verbatim quotes, who is bound by a clause, "no proof of consent" is not "no consent") are deployed to all four bots as a persistent procedure. Users ask plain questions without any prompt engineering.
 
-**To działający PoC, nie automatyczna zgoda na podpisanie umowy.** Rozmowy i delegacje odbyły się w Grok Bot. DemoVault, aneks i daty są fikcyjnymi materiałami testowymi; umowa Firmy B pochodzi z zanonimizowanej paczki. Ograniczenia i poprawki zachowujemy w [dzienniku prób](GROKBOT_STARTER/POSTEP_DEMO.txt).
+## Results from real Grok Bot runs today
 
-Wrocław · 5 listopada 2026 · track: **Multi-agent systems**
+| The user asked | The bots answered | Time |
+|---|---|---|
+| "Can we sign this backup contract? Does it fit our client commitments?" | **Conflict found:** DemoVault §3 vs Client B §6.3, with both clauses quoted and a change to negotiate | 6 min 34 s · 4 bots |
+| "The vendor offers this amendment. Does it fix the problem?" | **Conditional yes:** the deletion request must arrive by **23 Nov** to meet the **30 Nov** deadline | 4 min 25 s · 2 bots |
+| "Can we publish a case study with Client B's logo?" | Quotes §11.7 and tells "no proof of consent" apart from "consent refused" | 4 min 20 s |
+
+## The business case
+
+- **Admin saves time.** Instead of reading a stack of contracts, admin gets a verdict with clause numbers and quotes, plus the next step.
+- **Fewer questions to lawyers.** Routine checks are closed by the bots. Lawyers get only the specific exceptions that need a legal decision, not "please read all of it".
+- **The cost scales well.** A new tool, a new supplier or a changed T&C costs a few minutes of agent work, not another manual review.
+- **People stay in control.** Contract Sentinel prepares the decision and a person makes it.
+
+Next step: the admin team drops a contract into Slack, a Grok Bot routine starts the same team, and the report comes back in the thread.
+
+Wrocław · 5 Nov 2026 · Track: **Multi-agent systems** · Built with **Grok Bot**
 
 <details>
-<summary><strong>Odtwórz demo i sprawdź materiały</strong></summary>
+<summary><strong>Reproduce the demo, data and honest limits</strong></summary>
 
-### Uruchomienie w Grok Bot
+### Run it in Grok Bot
 
-Repo zawiera konfigurację agentów, dokumenty i scenariusze. Działającym środowiskiem jest aplikacja Grok Bot.
+1. Read the [data notes](CZYTAJ_NAJPIERW.txt) and the [starter guide](GROKBOT_STARTER/START.txt).
+2. Create the four bots from [PROMPTY.txt](GROKBOT_STARTER/PROMPTY.txt), add the [business rules](GROKBOT_STARTER/ROZSZERZENIE_BIZNESOWE.txt) and deploy [HARNESS](GROKBOT_STARTER/HARNESS.txt) once. Having the file in the repo does not activate the rules in the app.
+3. Give the bots the document base. Use one format per contract (TXT or PDF), not both.
+4. In a private chat with Sentinel, send [DemoVault v1](GROKBOT_STARTER/DEMOVAULT_UMOWA_v1.txt) with the [purchase context](GROKBOT_STARTER/DEMOVAULT_KONTEKST.txt). After the answer, send the [amendment v2](GROKBOT_STARTER/DEMOVAULT_ANEKS_v2.txt).
 
-1. Przeczytaj [opis danych](CZYTAJ_NAJPIERW.txt) i [instrukcję startową](GROKBOT_STARTER/START.txt).
-2. Utwórz boty według [promptów](GROKBOT_STARTER/PROMPTY.txt), dodaj [reguły biznesowe](GROKBOT_STARTER/ROZSZERZENIE_BIZNESOWE.txt) i jednorazowo wdróż [HARNESS](GROKBOT_STARTER/HARNESS.txt). Sam plik w repo nie aktywuje reguł w aplikacji.
-3. Udostępnij botom bazę dokumentów. Wybierz jeden format każdej umowy, aby nie wczytywać TXT i PDF podwójnie.
-4. Prywatnie do Sentinela wyślij [DemoVault v1](GROKBOT_STARTER/DEMOVAULT_UMOWA_v1.txt) i [kontekst zakupu](GROKBOT_STARTER/DEMOVAULT_KONTEKST.txt). Po odpowiedzi doślij [proponowany aneks v2](GROKBOT_STARTER/DEMOVAULT_ANEKS_v2.txt).
+The [operator expectations](GROKBOT_STARTER/DEMOVAULT_TEST_OPERATORA.txt) were used to grade the answers and were never shown to the bots.
 
-[Oczekiwania operatora](GROKBOT_STARTER/DEMOVAULT_TEST_OPERATORA.txt) służą ocenie wyniku — nie podawaliśmy ich botom.
+### What we actually tested
 
-### Co rzeczywiście przetestowaliśmy
+The full run log, timings and errors we found are in [POSTEP_DEMO.txt](GROKBOT_STARTER/POSTEP_DEMO.txt). It also covers a [Claude Code Pro vs Team + DPA comparison](GROKBOT_STARTER/CLAUDE_CODE_SCENARIUSZ.txt) against [official sources](GROKBOT_STARTER/CLAUDE_CODE_ZRODLA.txt).
 
-- DemoVault v1: wykrycie konfliktu i propozycja zmiany; odpowiedź po **6 min 34 s**.
-- DemoVault v2: ponowna ocena po aneksie; odpowiedź po **4 min 25 s**.
-- Pytanie o case study i logo Firmy B oraz aktualizacja odpowiedzi po [fikcyjnej zgodzie](GROKBOT_STARTER/DEMO_ZGODA_MARKETINGOWA_B.txt).
-- [Porównanie Claude Code Pro/Team](GROKBOT_STARTER/CLAUDE_CODE_SCENARIUSZ.txt) z [oficjalnymi źródłami](GROKBOT_STARTER/CLAUDE_CODE_ZRODLA.txt) i kolejnymi korektami odpowiedzi.
+### Data and limits of the PoC
 
-Pełny przebieg, czasy i zauważone błędy: [POSTEP_DEMO.txt](GROKBOT_STARTER/POSTEP_DEMO.txt). Nie mierzyliśmy jeszcze oszczędności czasu względem pracy człowieka. Skrócenie oczekiwania w montażu filmu nie oznacza odpowiedzi w czasie rzeczywistym.
-
-### Dane i granice PoC
-
-- [Umowy](Umowy/): trzy zanonimizowane historyczne umowy; część tekstu pochodzi z OCR.
-- [ISO](ISO/): sześć opracowań edukacyjnych, nie tekst normy ani obowiązujące polityki firmy.
-- [GROKBOT_STARTER](GROKBOT_STARTER/): prompty, procedura pracy, scenariusze i kryteria oceny.
-- [MANIFEST.json](MANIFEST.json): sumy kontrolne dostarczonej paczki.
-
-Recenzja nie wyeliminowała wszystkich błędów. W DemoVault odnotowaliśmy niejasność granicy 180 dni oraz pominięcie możliwości samodzielnego usunięcia kopii w odpowiedzi o aneksie. Warunkowy wynik dotyczy wskazanego konfliktu i faktów scenariusza, nie akceptacji całej umowy ani potwierdzenia zgodności z ISO.
-
-HARNESS v1.1 został wdrożony według potwierdzeń botów; trwałość reguł w nowym kontekście pozostaje nieprzetestowana. Dzisiejsze wejście i wyjście to prywatny czat Sentinela. Slack, webhooki i harmonogramy są [kierunkiem dalszej pracy](GROKBOT_STARTER/WEJSCIE_WYJSCIE_DEMO.txt), nie częścią wykonanego demo. Prywatna konfiguracja integracji firmowych pozostaje poza repo.
-
-Repo jest przeznaczone do pracy prywatnej. Anonimizacja nie rozstrzyga możliwości publicznego udostępnienia warunków umownych.
+- [Umowy/](Umowy/): three anonymised historical client contracts. Part of the text comes from OCR.
+- [ISO/](ISO/): six educational summaries. They are not the ISO standard and not company policy.
+- DemoVault, its amendment and all dates are fictional test material.
+- The PoC has not measured savings yet. The mechanism works end to end, and a pilot will put numbers on it. The demo video shortens the waiting time; answers are not real-time.
+- Reviewer did not catch every error. We logged the 180-day boundary ambiguity and one omitted self-deletion option.
+- The input and output today is Sentinel's private chat. Slack, webhooks and schedules are [future work](GROKBOT_STARTER/WEJSCIE_WYJSCIE_DEMO.txt). Company integrations stay out of the repo.
 
 </details>
