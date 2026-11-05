@@ -22,6 +22,8 @@ Boty: **Sentinel** koordynuje pracę, **Contracts** analizuje klauzule, **Securi
 4. Przeprowadź próby z [przypadkami demonstracyjnymi](GROKBOT_STARTER/SCENARIUSZE_DEMO.json) i [oczekiwaniami testów](GROKBOT_STARTER/OCZEKIWANIA_TESTOW.txt).
 5. Po działającej próbie skonfiguruj [rutynę i webhook](GROKBOT_STARTER/AUTOMATYZACJA.txt).
 
+Kolejny test PoC: [scenariusz Claude Code Pro / Team](GROKBOT_STARTER/CLAUDE_CODE_SCENARIUSZ.txt) i [indeks oficjalnych źródeł](GROKBOT_STARTER/CLAUDE_CODE_ZRODLA.txt). [Kryteria operatora](GROKBOT_STARTER/CLAUDE_CODE_TEST_OPERATORA.txt) służą ocenie wyniku, nie są załącznikiem dla botów. Aktualny zakres demo ogranicza się do prywatnego czatu Sentinela; integracje zewnętrzne są odłożone.
+
 ## Zawartość
 
 - `Umowy/`: trzy zanonimizowane historyczne umowy, w formatach TXT i PDF.

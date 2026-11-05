@@ -1,0 +1,59 @@
+CLAUDE CODE — KONTEKST ZAKUPU DLA PROJEKTU FIRMY C
+case_id: CLAUDE-CODE-C-01
+Data odniesienia: 2026-11-05, Europe/Warsaw
+Status: scenariusz demonstracyjny. Warunki dostawcy są rzeczywiste; poniższe
+fakty o projekcie, kontach i konfiguracji są założeniami testu, nie opisem
+rzeczywistych kont ani zgód firmy. To nie są wyniki analizy.
+
+POTRZEBA BIZNESOWA
+Zespół wykonawcy chce używać Claude Code do analizy błędów i proponowania
+poprawek kodu w projekcie Firmy C. Historyczną umowę Firmy C z bazy demonstracyjnej
+traktujemy jako obowiązującą wyłącznie na potrzeby tego testu.
+
+DANE I SPOSÓB UŻYCIA — TAKIE SAME W OBU WARIANTACH
+- Użytkownik i wykonawca znajdują się w Polsce (EOG).
+- Claude Code CLI działa lokalnie, łączy się bezpośrednio z Anthropic.
+- To logowanie w ramach subskrypcji; nie używamy klucza API, Bedrock, Vertex,
+  innych pośredników, sesji chmurowych ani Remote Control.
+- Analizowane fragmenty kodu i specyfikacji są niepubliczne i poufne,
+  należą do projektu klienta. Na potrzeby scenariusza obejmują też Consumer
+  and Company Data w rozumieniu umowy Firmy C.
+- Przekazywany kontekst może obejmować dane osobowe: imiona i adresy e-mail
+  użytkowników z logów błędów. Nie są to dane szczególnych kategorii.
+  Nie załączamy rzeczywistych danych osobowych; analizujemy planowany przepływ.
+- Poufne fragmenty i logi mają być przesyłane do dostawcy w kontekście modelu.
+- Propozycje poprawek przegląda programista przed ewentualnym włączeniem
+  do produktu. Nie instalujemy biblioteki Anthropic w produkcie klienta.
+- Nie wysyłamy feedbacku, raportów błędów ani transkryptów do ulepszania usług.
+- Brak dodatkowych MCP, pluginów i zewnętrznych narzędzi w tym scenariuszu.
+- Nie mamy dowodu, czy Firma C udzieliła zgody na taki przepływ danych.
+  Status zgody klienta: nieznany. Nie zakładamy ani zgody, ani jej odmowy.
+- W analizie dostępna jest obecna umowa Firmy C. Nie dostarczono innych
+  aneksów, SOW, zgód ani ustaleń z dostawcą, poza opisanymi niżej.
+
+WARIANT P — SUBSKRYPCJA INDYWIDUALNA
+- Claude Pro, zakupione przez konkretnego programistę.
+- Logowanie do Claude Code subskrypcją Pro.
+- Użycie danych do ulepszania modeli jest WYŁĄCZONE — fakt scenariusza.
+- Nie zawarto DPA między wykonawcą a Anthropic dla tego konta — założenie testu.
+- Brak indywidualnej umowy zmieniającej publiczne warunki dostawcy.
+
+WARIANT F — SUBSKRYPCJA ORGANIZACJI
+- Claude Team, konto organizacji wykonawcy, programista ma własne stanowisko.
+- Logowanie do Claude Code subskrypcją Team.
+- Przyjmujemy obowiązywanie Commercial Terms i włączonego do nich DPA
+  między wykonawcą a Anthropic. Nie jest to dowód zgody Firmy C.
+- Brak zgody na udostępnianie treści do treningu lub programu partnerskiego.
+- Nie wykupiono ani nie uzgodniono Zero Data Retention.
+- Brak indywidualnej umowy, niestandardowej retencji i gwarancji przetwarzania
+  wyłącznie w UE. Region faktycznego przetwarzania pozostaje do ustalenia.
+
+NIEZNANE FAKTY WSPÓLNE
+Dokładny zakres upoważnienia wykonawcy do przetwarzania danych osobowych,
+istnienie zgody klienta i warunki dotyczące podprocesorów nie są potwierdzone
+dodatkowymi dokumentami. Nie ma jeszcze daty zakończenia projektu ani żądania
+usunięcia danych. Test dotyczy planowanego zakupu, nie incydentu lub naruszenia.
+
+MATERIAŁY DOSTAWCY
+Oficjalne adresy i daty widoczne przy przygotowaniu testu są w osobnym pliku
+CLAUDE_CODE_ZRODLA.txt. To indeks materiałów, nie zamiennik treści warunków.

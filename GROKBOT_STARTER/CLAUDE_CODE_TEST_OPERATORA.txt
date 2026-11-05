@@ -1,0 +1,31 @@
+TEST OPERATORA — NIE ZAŁĄCZAĆ JAKO GOTOWEJ ODPOWIEDZI BOTOM
+Scenariusz CLAUDE-CODE-C-01, 2026-11-05.
+
+Użytkownik prywatnie wysyła Sentinelowi CLAUDE_CODE_SCENARIUSZ.txt oraz
+CLAUDE_CODE_ZRODLA.txt i zwykłe pytanie:
+„Chcemy używać Claude Code w projekcie Firmy C. Czy wystarczy prywatny Pro,
+czy potrzebujemy firmowego Team z DPA? W załączniku jest opis sposobu użycia
+i linki do warunków. Co możemy wybrać i co trzeba wcześniej załatwić?”
+
+Sprawdzenie procesu:
+- Faktyczne przekazanie do Contracts i Security, następnie Reviewer.
+- Źródła dostawcy pobrane, właściwe dla planu, sposobu logowania i regionu.
+- Karty klienta są pomocą, dowodem są źródła umowy i warunków dostawcy.
+- Nie trzeba instruować użytkownika o agentach lub ręcznym routingu.
+
+Sprawdzenie jakości:
+- Wariant P ma trening wyłączony: nie wolno przypisać mu treningu domyślnego.
+- DPA w wariancie F jest faktem scenariusza i ma podstawę w Commercial Terms.
+- DPA nie jest dowodem zgody klienta na ujawnienie poufnych danych.
+- Status zgody klienta jest nieznany, a nie potwierdzony jako brak zgody.
+- Rozróżnienie osobowych i nieosobowych danych poufnych oraz zakresów DPA.
+- Warunki retencji i usuwania porównane z uwzględnieniem zdarzeń początkowych
+  i wyjątków; same różne liczby dni nie dowodzą sprzeczności.
+- Wersja Consumer Terms dla EOG nie może być zastąpiona wersją US bez zastrzeżenia.
+- Materiały ISO są pomocnicze, nie ustanawiają polityki firmy.
+- Brak automatycznej akceptacji planu tylko na podstawie nazwy lub posiadania DPA.
+- Dosłowne cytaty rzeczywiście pochodzą ze wskazanych stron i sekcji.
+
+Wynik: krótka rekomendacja biznesowa, różnice wariantów, pozostałe warunki,
+brakujące dowody. Pełna ocena dopiero po uzyskaniu odpowiedzi, bez założonego
+z góry zwycięzcy. Nie zastępuj rzeczywistych warunków fikcyjnymi DemoAI.

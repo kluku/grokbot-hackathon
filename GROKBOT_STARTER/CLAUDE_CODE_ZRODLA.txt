@@ -1,0 +1,70 @@
+CLAUDE CODE — INDEKS OFICJALNYCH ŹRÓDEŁ
+Sprawdzono: 2026-11-05 (Europe/Warsaw).
+To indeks URL-i i sekcji, nie pełna kopia warunków ani prawna ocena dostawcy.
+Nie ma tu gotowego werdyktu dla wariantu prywatnego lub firmowego.
+Daty poniżej są datami wyświetlanymi na stronach, nie datami zawarcia umowy
+przez użytkownika. Treści dynamiczne mogą się zmienić.
+
+S1 — PRZYPISANIE WARUNKÓW DO CLAUDE CODE
+Tytuł: Legal and compliance — Claude Code Docs
+https://code.claude.com/docs/en/legal-and-compliance
+Typ: oficjalna dokumentacja produktu.
+Data obowiązywania: nie wskazano na odczytanej stronie.
+Sekcje do odczytu: License; Commercial agreements; Authentication and credential use.
+Wskazany zakres: Pro/Max — Consumer Terms; Team/Enterprise/API — Commercial Terms.
+
+S2 — WARUNKI INDYWIDUALNE
+Tytuł: Consumer Terms of Service
+https://www.anthropic.com/legal/consumer-terms
+Typ: warunki umowne. Data widoczna przy odczycie: 2025-10-08.
+Sekcje do odczytu: zakres i strona umowy; 3 — Use of our Services;
+4 — Inputs, Outputs, Actions, and Materials; 5 — Feedback.
+Uwaga źródłowa: odczytana wersja wskazywała Anthropic PBC. Właściwość regionalnej
+wersji dla użytkownika z Polski nie została potwierdzona. Trzeba rozstrzygnąć
+to w analizie lub oznaczyć jako ograniczenie, bez uznania tej wersji za wersję EOG.
+
+S3 — WARUNKI KOMERCYJNE
+Tytuł: Commercial Terms of Service
+https://www.anthropic.com/legal/commercial-terms
+Typ: warunki umowne. Data widoczna przy odczycie: 2025-06-17.
+Sekcje do odczytu: wstęp (strona umowy według regionu), A.3, B — Customer Content,
+C — Data Privacy, D.2 (dokumenty włączone), E.1–E.4 — Confidentiality.
+Krótki cytat z B: "Anthropic may not train models on Customer Content from Services."
+C włącza DPA do warunków. Odczytaj pełne sekcje wraz z wyjątkami.
+
+S4 — DPA
+Tytuł: Data Processing Addendum
+https://www.anthropic.com/legal/data-processing-addendum
+Typ: dodatek do warunków. Data widoczna przy odczycie: 2025-02-24.
+Sekcje do odczytu: A (definicje Customer Data i Customer Personal Data),
+B (przetwarzanie), C (podprocesorzy), G (incydenty), H (usunięcie/zwrot),
+I i załączniki (transfery, zakres i pierwszeństwo).
+Nie zakładaj jednakowego zakresu wszystkich postanowień dodatku: sprawdź,
+czy konkretne postanowienie dotyczy danych osobowych, czy szerszego zbioru danych.
+
+S5 — PRZETWARZANIE DANYCH W CLAUDE CODE
+Tytuł: Data usage — Claude Code Docs
+https://code.claude.com/docs/en/data-usage
+Typ: oficjalna dokumentacja produktu, nie indywidualnie wynegocjowana umowa.
+Data obowiązywania: nie wskazano na odczytanej stronie.
+Sekcje do odczytu: Data training policy; Data retention; Data access;
+Feedback; Local Claude Code: Data flow and dependencies.
+Dokumentacja opisuje wybór ustawienia treningu dla kont indywidualnych oraz
+odrębne reguły komercyjne. Uwzględnij ustawienia konkretnego scenariusza,
+wyjątki, dobrowolne udostępnianie i różnicę między danymi lokalnymi i serwerowymi.
+
+S6 — WYJAŚNIENIE WŁĄCZENIA DPA
+Tytuł: How do I view and sign your Data Processing Addendum (DPA)?
+https://privacy.claude.com/en/articles/7996862-how-do-i-view-and-sign-your-data-processing-addendum-dpa
+Typ: oficjalna pomoc. Widoczna data artykułu: 2026-03-16.
+Opisuje automatyczne włączenie DPA do Commercial Terms oraz odrębność
+warunków platform pośredniczących. W scenariuszu nie używamy takiej platformy.
+
+ZAKRES I WERYFIKOWALNOŚĆ
+To lista startowa, nie kompletny zbiór wszystkich dokumentów włączonych do umowy.
+Dokument powołany w warunkach trzeba odczytać, jeżeli jest istotny dla wniosku.
+Wnioski i cytaty wymagają pełnego kontekstu odczytanego z oficjalnych stron.
+W razie problemu z pobraniem nie zastępuj treści zmyślonym cytatem; zgłoś brak.
+W raporcie można wskazać URL, sekcję, datę odczytu i datę obowiązywania.
+Jeżeli agent zapisze pełną roboczą kopię, jej hash odnosi się do tej kopii;
+ten indeks nie jest snapshotem i nie ma hasha pełnej treści warunków.
