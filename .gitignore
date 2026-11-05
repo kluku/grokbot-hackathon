@@ -1,0 +1,22 @@
+.DS_Store
+._*
+
+# Local credentials and machine configuration
+.env
+.env.*
+!.env.example
+.aws/
+.codex/
+.agents/
+
+# Generated archives duplicate the source files
+HACKATHON_PUBLICZNE.zip
+
+# Runtime and generated outputs
+node_modules/
+__pycache__/
+.venv/
+dist/
+build/
+coverage/
+*.log

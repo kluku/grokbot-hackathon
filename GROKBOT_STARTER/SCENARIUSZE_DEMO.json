@@ -1,0 +1,189 @@
+{
+  "notice": "Warunki DemoAI i fakty scenariuszy są syntetyczne. Nie opisują Claude ani rzeczywistych ustawień, zgód lub działań firmy. Bazą porównania są autentyczne klauzule z zanonimizowanych historycznych umów w tym folderze.",
+  "candidate_documents": [
+    {
+      "id": "DEMOAI-PERSONAL-v1",
+      "fictional": true,
+      "title": "DemoAI Personal — fikcyjne warunki do demonstracji, nie warunki Claude",
+      "version": "demo-2026-11-05",
+      "clauses": [
+        {
+          "id": "P1",
+          "text": "Usługa otrzymuje i przetwarza treści przesłane przez użytkownika na infrastrukturze zewnętrznego dostawcy DemoAI."
+        },
+        {
+          "id": "P2",
+          "text": "Dostawca może wykorzystywać przesłane treści do trenowania ogólnych modeli dostępnych innym klientom. W tym wariancie umowy nie można wyłączyć tego celu użycia."
+        },
+        {
+          "id": "P3",
+          "text": "Użytkownik zachowuje swoje prawa do treści. Dostawca otrzymuje prawo przetwarzania treści w celach wskazanych w P1 i P2."
+        }
+      ]
+    },
+    {
+      "id": "DEMOAI-BUSINESS-v1",
+      "fictional": true,
+      "title": "DemoAI Business — fikcyjne warunki do demonstracji, nie warunki Claude",
+      "version": "demo-2026-11-05",
+      "clauses": [
+        {
+          "id": "B1",
+          "text": "Usługa otrzymuje i przetwarza treści przesłane przez użytkownika na infrastrukturze zewnętrznego dostawcy DemoAI."
+        },
+        {
+          "id": "B2",
+          "text": "Dostawca przetwarza treści wyłącznie w celu realizacji poleceń użytkownika. Nie używa ich do trenowania ogólnych modeli ani do innych własnych celów."
+        },
+        {
+          "id": "B3",
+          "text": "Dostawca zobowiązuje się zachować treści w poufności. Dostęp mają wyłącznie osoby wykonujące usługę i związane takim samym obowiązkiem poufności."
+        },
+        {
+          "id": "B4",
+          "text": "Na żądanie klienta dostawca usuwa wszystkie otrzymane treści i ich kopie w ciągu 7 dni oraz przekazuje potwierdzenie usunięcia."
+        }
+      ]
+    },
+    {
+      "id": "DEMOAI-ARCHIVE-v1",
+      "fictional": true,
+      "title": "DemoAI Archive — fikcyjne warunki do demonstracji",
+      "version": "demo-2026-11-05",
+      "clauses": [
+        {
+          "id": "R1",
+          "text": "Dostawca przetwarza treści wyłącznie w celu realizacji usługi archiwizacji na zlecenie użytkownika i zachowuje je w poufności."
+        },
+        {
+          "id": "R2",
+          "text": "Wszystkie przesłane treści i ich kopie muszą pozostać w aktywnym archiwum przez co najmniej 180 dni od przesłania. Ani klient, ani dostawca nie mogą ich wcześniej usunąć, także po zakończeniu współpracy lub na pisemne żądanie."
+        }
+      ]
+    }
+  ],
+  "security_reference_files": [
+    "ISO/01_Podstawowe_pojecia_bezpieczenstwa.txt",
+    "ISO/02_Bezpieczenstwo_w_umowach_z_dostawcami.txt",
+    "ISO/03_Ocena_uslug_chmurowych.txt",
+    "ISO/04_Poufnosc_i_kontrola_dostepu.txt",
+    "ISO/05_Incydenty_i_ciaglosc_dzialania.txt",
+    "ISO/06_Bezpieczne_oprogramowanie_i_licencje.txt"
+  ],
+  "cases": [
+    {
+      "case_id": "DEMO-01",
+      "title": "Poufne dane Firmy C w DemoAI Personal",
+      "client": "Firma C",
+      "baseline_files": [
+        "Umowy/Firma_C_Umowa.txt"
+      ],
+      "candidate_document_id": "DEMOAI-PERSONAL-v1",
+      "use_case": {
+        "fictional_scenario": true,
+        "historical_contract_assumed_applicable_for_demo": true,
+        "region": "PL/EEA — fakt scenariusza, nie automatyczny wymóg rezydencji",
+        "output_incorporated_into_deliverable": false,
+        "personal_data": false,
+        "amendments": "W tym fikcyjnym scenariuszu nie ma dodatkowych aneksów.",
+        "action": "Przesłanie poufnej specyfikacji i danych projektu Firmy C w celu streszczenia.",
+        "data_classification": "confidential_client_data; Consumer and Company Data na potrzeby scenariusza",
+        "client_written_consent": false,
+        "consent_evidence": "Fikcyjny fakt scenariusza: zgody nie udzielono.",
+        "vendor_access": "Dostawca jest zewnętrzną osobą trzecią.",
+        "vendor_processing_agreement": "Tylko załączone warunki DemoAI Personal."
+      }
+    },
+    {
+      "case_id": "DEMO-02",
+      "title": "Ten sam scenariusz po przejściu na DemoAI Business",
+      "client": "Firma C",
+      "baseline_files": [
+        "Umowy/Firma_C_Umowa.txt"
+      ],
+      "candidate_document_id": "DEMOAI-BUSINESS-v1",
+      "use_case": {
+        "fictional_scenario": true,
+        "historical_contract_assumed_applicable_for_demo": true,
+        "region": "PL/EEA — fakt scenariusza, nie automatyczny wymóg rezydencji",
+        "output_incorporated_into_deliverable": false,
+        "personal_data": false,
+        "amendments": "W tym fikcyjnym scenariuszu nie ma dodatkowych aneksów.",
+        "action": "Przesłanie tej samej poufnej specyfikacji i danych projektu Firmy C w celu streszczenia.",
+        "data_classification": "confidential_client_data; Consumer and Company Data na potrzeby scenariusza",
+        "client_written_consent": false,
+        "consent_evidence": "Fikcyjny fakt scenariusza: zgody nadal nie udzielono.",
+        "vendor_access": "Dostawca jest zewnętrzną osobą trzecią.",
+        "vendor_processing_agreement": "Tylko załączone warunki DemoAI Business."
+      }
+    },
+    {
+      "case_id": "DEMO-03",
+      "title": "Publiczne informacje Firmy A — kontrola fałszywego alarmu",
+      "client": "Firma A",
+      "baseline_files": [
+        "Umowy/Firma_A_Umowa.txt"
+      ],
+      "candidate_document_id": "DEMOAI-PERSONAL-v1",
+      "use_case": {
+        "fictional_scenario": true,
+        "historical_contract_assumed_applicable_for_demo": true,
+        "region": "PL/EEA — fakt scenariusza, nie automatyczny wymóg rezydencji",
+        "output_incorporated_into_deliverable": false,
+        "personal_data": false,
+        "amendments": "W tym fikcyjnym scenariuszu nie ma dodatkowych aneksów.",
+        "action": "Streszczenie opublikowanego przez samą Firmę A opisu produktu. Wynik służy wyłącznie wewnętrznemu rozeznaniu.",
+        "data_classification": "public",
+        "public_origin_evidence": "Fikcyjny fakt scenariusza: wszystkie przesyłane informacje zostały legalnie upublicznione przez Firmę A. Nie dodajemy prywatnego kontekstu ani Work Product.",
+        "client_written_consent": false,
+        "service_delegation": "Nie zlecamy wykonania obowiązków z SOW; nie włączamy kodu ani wyniku do Deliverables."
+      }
+    },
+    {
+      "case_id": "DEMO-04",
+      "title": "Retencja dostawcy a zwrot i usunięcie danych Firmy B",
+      "client": "Firma B",
+      "baseline_files": [
+        "Umowy/Firma_B_Umowa.txt"
+      ],
+      "candidate_document_id": "DEMOAI-ARCHIVE-v1",
+      "use_case": {
+        "fictional_scenario": true,
+        "historical_contract_assumed_applicable_for_demo": true,
+        "region": "PL/EEA — fakt scenariusza, nie automatyczny wymóg rezydencji",
+        "output_incorporated_into_deliverable": false,
+        "personal_data": false,
+        "amendments": "W tym fikcyjnym scenariuszu nie ma dodatkowych aneksów.",
+        "action": "Zarchiwizowanie poufnych danych projektu w DemoAI Archive. W dziesiątym dniu od przesłania wygasa umowa z Firmą B.",
+        "data_classification": "confidential_client_data",
+        "client_written_consent": true,
+        "consent_evidence": "Fikcyjny fakt scenariusza: Firma B uprzednio pisemnie zatwierdziła dostawcę jako Permitted Subcontractor; zgoda nie zmienia sekcji 6.3.",
+        "provider_control": "Pliki są kopiami zarządzanymi przez wykonawcę w jego koncie chmurowym. Dokładny zakres odpowiedzialności za kopie u dostawcy pozostaje przedmiotem interpretacji prawnej.",
+        "vendor_processing_agreement": "Fikcyjny fakt: istnieją wymagane umowy poufności/IP. Obowiązuje także klauzula R2 bez wyjątku."
+      }
+    },
+    {
+      "case_id": "DEMO-05",
+      "title": "Brak dowodu zgody to brak danych",
+      "client": "Firma C",
+      "baseline_files": [
+        "Umowy/Firma_C_Umowa.txt"
+      ],
+      "candidate_document_id": "DEMOAI-BUSINESS-v1",
+      "use_case": {
+        "fictional_scenario": true,
+        "historical_contract_assumed_applicable_for_demo": true,
+        "region": "PL/EEA — fakt scenariusza, nie automatyczny wymóg rezydencji",
+        "output_incorporated_into_deliverable": false,
+        "personal_data": false,
+        "amendments": "W tym fikcyjnym scenariuszu nie ma dodatkowych aneksów.",
+        "action": "Planowane streszczenie poufnej specyfikacji i danych projektu Firmy C.",
+        "data_classification": "confidential_client_data; Consumer and Company Data na potrzeby scenariusza",
+        "client_written_consent": null,
+        "consent_evidence": "Nie dostarczono informacji, czy zgoda istnieje.",
+        "vendor_access": "Dostawca jest zewnętrzną osobą trzecią.",
+        "vendor_processing_agreement": "Załączone warunki DemoAI Business; brak dodatkowych dowodów."
+      }
+    }
+  ]
+}

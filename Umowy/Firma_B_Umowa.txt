@@ -1,0 +1,208 @@
+Firma B - Consulting Agreement
+
+ANONYMIZED DEMONSTRATION COPY. Parties are pseudonyms. Personal and company identifiers, signatures and financial values have been removed. Bracketed labels mark removals. Source page labels support review; the original layout is not retained. Text reconstructed by local OCR; recognition errors may remain. Do not use as an authoritative legal transcription.
+
+Source page 1
+CONSULTING AGREEMENT
+
+This CONSULTING AGREEMENT, effective as of [DATE REMOVED] (the “Effective Date”), is entered into by and between Firma B and Service Provider (“Consultant”) (Firma B and Consultant, each, a “Party” and collectively, the “Parties”). [REGISTRATION AND ADDRESSES REMOVED.]
+
+NOW, THEREFORE, in consideration of the mutual promises set forth herein, and for other good and valuable consideration, the receipt and sufficiency of which is hereby acknowledged, and upon the terms and conditions set forth below, the Parties agree as follows:
+
+1. SCOPE OF SERVICES
+
+Consultant will provide Firma B, in accordance with the terms and conditions of this Consulting Agreement, together with all Exhibits, Schedules, Addenda and other attachments hereto (together, the “Agreement”), such professional services (the “Services”) as are described in one or more statements of work attached hereto as Exhibits A-1, A-2, A-3, etc. (each, a “Statement_of Work”), as each may be amended from time to time by agreement of the Parties. Each engagement to be performed by Consultant under this Agreement will be defined by a Statement of Work that references this Consulting Agreement. Each Statement of Work shall identify a project manager to whom Consultant shall report with respect to the consulting engagement defined by a particular Statement of Work (the “Project Manager’).
+
+2. PERSONNEL
+
+2.1. Consultant’s Personnel. Any employees of Consultant (“Personnel”) must be pre- approved by Firma B before such employee commences performing Services. All Personnel are employees of Consultant and will not be deemed employees of Firma B for any purpose whatsoever. Consultant is wholly responsible for withholding and payment of all applicable federal, state and local income and other payroll taxes with respect to the Personnel. Firma B shall have the right, in its sole discretion, to require Consultant to remove any Personnel from performing any Services under this Agreement for any reason at any time, in which event Consultant shall replace any such terminated personnel in a timely fashion so as not to delay the performance of the Services, and Firma B shall have no further obligation with respect to such Personnel except to pay Consultant for acceptable Services performed by such replaced Personnel prior to their removal.
+
+2.2. Personnel Agreements. Consultant will cause all Personnel, prior to such person’s performance of any Services, to execute a written agreement which, at a minimum, includes (a) an assignment of rights provision at least as broad as Section 5 (Intellectual Property Rights), and (b) restrictions on the use and disclosure of Confidential Information (defined below) (including Personal Information, if applicable) at least as stringent as those under Section 6 (Confidentiality).
+
+Source page 2
+2.3. Subcontractors. Consultant may not subcontract or delegate any obligation under this Agreement without the prior written consent of Firma B. Consultant will cause any subcontractor that is so approved by Firma B (a “Permitted Subcontractor”), prior to such person’s performance of any Services, to execute a written agreement which, at a minimum, includes (a) an assignment of rights provision at least as broad as Section 5 (Intellectual Property Rights), and (b) a restrictions on the use and disclosure of Confidential Information (including Personal Information, if applicable) at least as stringent as those under Section 6 (Confidentiality). In any event, Consultant shall remain fully responsible for the acts or omissions of any Permitted Subcontractor that would be a breach of this Agreement if Consultant had taken such action or made such omission.
+
+3. RELATIONSHIP OF THE PARTIES
+
+Each Party will be and act as an independent contractor and not as an agent or partner of, or Joint venturer with, the other Party for any purpose related to this Agreement, and neither Party by virtue of this Agreement will have any right, power or authority to act or create any obligation, express or implied, on behalf of the other Party. As an independent contractor, the Consultant will maintain all necessary insurance, including without limitation workman’s compensation insurance. Consultant shall have the right to control and determine the time, place, methods, manner and means of performing the Services. In performing the Services, the amount of time devoted by Consultant on any given day will be entirely within Consultant’s control, and Firma B will rely on Consultant to put in the necessary number of hours to fulfill the requirements of the Agreement. Consultant will provide all equipment and supplies required to perform the Services. Consultant is not required to submit reports to Firma B (except as may be specified on a Statement of Work), nor to attend regular meetings at Firma B, but upon reasonable notice and at Firma B’s request, Consultant shall meet with representatives of Firma B at a location to be designated by the parties.
+
+4. PAYMENTS
+
+4.1. | Compensation. Firma B will pay Consultant for Services performed in accordance with the applicable Statement of Work, at rates and subject to the terms set forth on such Statement of Work. Unless otherwise specified in the applicable Statement of Work, Consultant will invoice Firma B in arrears for Services performed and Firma B will pay the Consultant’s invoices within 30 days after the date of receipt of invoice.
+
+4.2. Expenses. Firma B will reimburse the Consultant for reasonable out-of-pocket expenses in accordance with this Section 4.2 (Expenses). Consultant will coordinate all travel, including air, lodging, and ground transportation through Firma B’s authorized travel agency and will comply with Firma B’s travel and expense policy as set forth below (the “Expense Policy”). Consultant will take the lowest available published airfare. Consultant will book lodging reservations at such properties as: Hampton Inns, Courtyard by Marriott, or Holiday Inn Express. Consultant will use the most economical form of ground transportation available. Where such hotel offers hotel to airport and office shuttle service, Consultant will use such shuttle whenever possible. If more than one Consultant employee is working on a project, Consultant will ensure that, if rental cars are needed, there will be multiple
+
+Source page 3
+Consultant employees using one car. Consultant will copy Firma B on all travel itineraries prior to the date of travel and to promptly contact Firma B for any questions or approvals. All expense reports and invoices must include copies of all itineraries, invoices and other receipts to accurately account for the expenses. Consultant acknowledges that submitted expenses without receipts will not be reimbursed by Firma B. Firma B will reimburse meal expenses based on current meal guidelines established in the Expense Policy. The following guide can be used as an estimate of what is a reasonable, total amount for daily meal expense:
+
+[MEAL AMOUNTS REMOVED]
+
+Firma B shall reimburse Consultant solely for pre-approved and actual coach-class travel and lodging expenditures incurred in order to provide the Services and for any other expenditure approved by Firma B in writing in advance. Such expenses shall not exceed [FINANCIAL THRESHOLD REMOVED] of the consulting fee for the respective full project, except as may be otherwise agreed in writing by the parties. Consultant is wholly responsible for withholding and payment of all applicable federal, state and local income and other payroll taxes with respect to its employees, including contributions from them as required by law.
+
+5. INTELLECTUAL PROPERTY RIGHTS
+
+5.1. | Assignment. Firma B will own all rights, title and interests in and to all work product (including all ideas, works of authorship, inventions, technology, software, devices, prototypes, models, know-how, and information and all embodiments thereof) created by Consultant in the course of performing the Services conducted under this Agreement and all copyright, patent, trade secret or other proprietary rights of any kind therein (collectively, “Work Product”). The Consultant hereby assigns, and agrees to assign, to Firma B all rights, title, and interests, throughout the world, in and to the Work Product. All works of authorship included in the Work Product will be deemed “works made for hire” to the extent permitted under applicable copyright law.
+
+5.2. Further Assurances. At Firma B’s request, Consultant will provide all cooperation requested by Firma B in any effort of Firma B to establish, perfect or defend its rights in the Work Product, including, without limitation, the execution of assignments, releases, applications for domestic and foreign patents and copyrights or other documentation, and the provision of good faith testimony by declaration, by affidavit or in-person. Consultant will not charge Firma B for time spent in complying with these obligations. Except as otherwise expressly set forth in the applicable Statement of Work, to the extent that the Consultant incorporates into any Work Product any material that cannot be assigned to Firma B hereunder, the Consultant will (a) identify such material in writing to Firma B and (b) grant to or obtain for Firma B a nonexclusive, worldwide, royalty-free, irrevocable, perpetual license (with the right to sublicense through multiple tiers) to reproduce, distribute, publicly perform, publicly display, transmit, create derivative works of, and
+
+Source page 4
+otherwise exploit such material for any purpose in connection with the Work Product into which such material is incorporated.
+
+5.3. Consultant Intellectual Property. Notwithstanding the foregoing, Consultant will retain all rights, title and interests (including copyright, patent, trade secret or other proprietary right) in and to all intellectual property owned by Consultant prior to the Effective Date (the “Consultant Intellectual Property”). All Consultant Intellectual Property that will be incorporated into the Work Product is identified in the applicable Statement of Work. Consultant hereby grants to Firma B a nonexclusive, worldwide, royalty-free, irrevocable, perpetual license (with the right to sublicense through multiple tiers) to reproduce, distribute, publicly perform, publicly display, transmit, create derivative works of, and otherwise exploit Consultant Intellectual Property for any purpose in connection with the Work Product into which such material is incorporated.
+
+6. CONFIDENTIALITY
+
+6.1. Confidential Information. During the course of this Agreement, Firma B may supply or may have already supplied Consultant with confidential or proprietary information owned by Firma B and/or its licensors, suppliers, members, consultants, including without limitation, patentable inventions for which no registration has yet been applied or received; business and commercialization plans; technical information, software; financial information; employee information, personal information, Firma B supplier or licensor information; currently unpublished information and processes; cost and earnings information; project assignments; the terms of this Agreement; and the Work Product (collectively, “Confidential Information”). Confidential Information does not include information (a) which was already in the possession of Consultant prior to the commencement of the Services, (b) which was or which becomes publicly known through no fault of Consultant, (c) which Consultant rightfully receives from third parties not otherwise bound by an obligation of confidentiality to Firma B, or (d) which is approved for use or release by written authorization from Firma B.
+
+6.2. Obligations of Confidentiality. Consultant will hold in strict confidence and refrain from publication, dissemination, or any other disclosure to third parties of any Confidential Information, other than to Personnel and to Permitted Subcontractors who need to receive such Confidential Information to perform the Services in accordance with Section 2 (Personnel). Consultant will use Confidential Information only as required to perform the Services for Firma B. Consultant will not make copies of Confidential Information of Firma B, except as reasonably required to perform the Services or as specifically authorized to do so by Firma B.
+
+6.3. Return of Confidential Information. Within fifteen (15) days following the expiration or termination of this Agreement, or at any time upon written request of the Firma B, Consultant will (a) return to Firma B all copies of Confidential Information, and (b) delete, erase and destroy all copies of Confidential Information located on Consultant’s computer drives and/or Consultant’s retained media, and will certify such deletion, erasure, and destruction of foregoing to Firma B.
+
+Source page 5
+6.4. Disclosure of Confidential Information. Consultant recognizes that the disclosure or use of Confidential Information by Consultant in violation this Agreement would cause irreparable injury to Firma B; therefore, in the event that Consultant breaches or threatens to breach the provisions of this Section 6 (Confidentiality), Firma B, in addition to any other remedies it may have, will be entitled to preliminary and permanent injunctive relief without the necessity of posting a bond.
+
+6.5. Personal Information. If, at any time, Consultant receives, collects, stores, maintains or uses Personal Information (defined in Exhibit B) in the course of performing the Services, then Consultant will comply with the terms and conditions set forth in Exhibit B.
+
+7. CONFLICT OF INTEREST AND NON-SOLICITATION.
+
+7.1. Consultant shall inform Firma B of any interest of Consultant which conflicts, or which Consultant believes might conflict, with the interests of Firma B, including, without limitation, any competitive employment, business or other activity.
+
+7.2. Consultant hereby represents, warrants, and covenants that neither it nor any of its affiliates, subsidiaries, employees and/or representatives has or shall have, directly or indirectly, any agreement or arrangement with (i) any official, employee or representative of Firma B, (ii) any government or governmental agency or of any political party, or (iii) any other third party under which any such official, employee or representative, government or governmental agency or political party, and/or third party shall receive either directly or indirectly anything of value whether monetary or otherwise (including, but not limited to, any commission, gift, percentage or fee) (“Award”) contingent upon, as the result of, or in connection with the award of or making of this Agreement. For breach or violation of this warranty, Firma B may terminate this Agreement without liability and, at its discretion, deduct from any Fees paid or payable hereunder or otherwise recover the full amount of any such Award.
+
+7.3. Consultant further warrants that neither it nor any of its employees or representatives has offered or given any gratuities to Firma B’s employees, agents or representatives with a view toward securing this agreement or securing favorable treatment with respect thereto.
+
+7.4. Consultant agrees that during the term of this Agreement and for a period of two (2) years from termination and/or cancellation thereof:
+
+(a) not to perform services, and/or furnish deliverables, similar to the services and/or deliverables furnished hereunder for any direct competitor of Firma B.
+
+(b) not to directly solicit, or cause to be solicited the employment of any employee of Firma B who is involved in the performance of this Agreement.
+
+(c) not to divert or attempt to divert customers of Firma B.
+
+Source page 6
+8. REPRESENTATIONS, WARRANTIES AND COVENANTS MADE BY CONSULTANT
+
+8.1. Work Product. Consultant and its Personnel will be the sole authors of the Work Product developed under this Agreement, and all Personnel and Permitted Subcontractors will be bound by agreements necessary to fully grant the rights to all intellectual property to Firma B in accordance with Section 5 (Intellectual Property Rights) above. Any Work Product that Consultant creates or delivers to Firma B will not contain any material defects and will conform to any applicable specifications set forth or referenced in the applicable Statement of Work.
+
+8.2. Third Party Confidential Information and Materials. Consultant will not disclose to Firma B, or use, or induce Firma B to use, any confidential, proprietary or trade secret information of others. Performance of this Agreement will not breach any agreement or duty to keep in confidence or in trust confidential, proprietary or trade secret information of others that Consultant entered into prior to being retained by Firma B. Except as expressly set forth in the applicable Statement of Work, no third party software, technology or other materials will be incorporated in the Work Product. To the extent third party software, technology or other materials is identified in the Statement of Work as being incorporated in the Work Product, unless the Statement of Work expressly provides that Firma B need to obtain a license to use such software, technology or materials, Consultant will secure for Firma B sufficient rights to such software, technology or materials necessary for Firma B’s full use and enjoyment of the Work Product.
+
+8.3. Malware. The Work Product will not contain any virus, worm, Trojan horse, trap door, time bomb, spy ware, turn-off device or other malicious or debilitating software or code.
+
+8.4. Non-Conflict. Consultant has the lawful right to enter into this Agreement and Consultant’s performance of Services for Firma B does not and during the term of the Agreement will not violate any agreement or obligation that the Consultant owes to any prior employer or other third party.
+
+8.5. Intellectual Property. Consultant has and will have good and marketable title to, or the right to license as set forth in this Agreement, all intellectual property rights (including copyrights, patents, trademarks and trade secrets) assigned, transferred or licensed hereunder. The Work Product will not infringe or violate any third party’s rights.
+
+8.6. Professional Standards. Consultant has the necessary knowledge, skills, experience and resources to perform the Services and will perform the Services in accordance with the requirements set forth in the applicable Statement of Work using due care, in a diligent manner and in accordance with the highest professional standards.
+
+8.7. Compliance with Laws. Consultant represents, warrants and covenants that it has
+
+complied and will comply with all applicable laws and regulations relating to the provision of Services contemplated herein.
+
+Source page 7
+8.8. Compliance with Firma B Policies. Consultant will comply with all written Firma B policies that may be provided to Consultant by the Project Manager from time to time.
+
+9. INDEMNIFICATION
+
+Consultant will, at its sole expense, defend, indemnify and hold harmless Firma B and its affiliates (and its and their officers, directors, employees, agents, representatives and counsel) from and against any and all claims, suits, or proceedings, brought by a third party and all losses, liabilities, damages, judgments, settlements, and reasonable costs and expenses (including attorney’s fees) arising therefrom (i) arising from a claim that any Work Product provided to Firma B pursuant to this Agreement infringes any copyright, trademark, trade secret, patent or any other property right of a third party or (ii) arising from Consultant’s negligence, misconduct or breach of this Agreement. Firma B will promptly notify Consultant of any claim for which it seeks indemnification, provided that failure or delay in providing such notice will not relieve Consultant of any obligation to indemnify Firma B, except to the extent that such failure or delay prejudices the defense of any such claim. If any claim of infringement which Consultant is obligated to defend has occurred, or in Consultant’s opinion is likely to occur, Consultant may, at its expense and subject to Firma B approval, procure for Firma B the right to continue using such Work Product or promptly replace or modify the same so that it becomes non-infringing; provided that doing so does not adversely affect the utility of the Work Product. Firma B may, at its own expense, assist in such defense if it so chooses. Consultant will have control of the defense of any action and all negotiations for settlement and compromise, but will not make any settlement binding on Firma B without Firma B’s consent except if such settlement provides a complete and absolute release of Firma B.
+
+10. TERM AND TERMINATION
+
+10.1. Term. This Agreement will take effect on the Effective Date and will remain in effect until the last to occur of (a) the expiration of the last-to-expire Statement of Work entered into under this Agreement and (b) the final completion of all Services to be provided under this Agreement, in either case unless earlier terminated in accordance with Section 10.2 (Termination).
+
+10.2. Termination.
+
+(a) For Cause. This Agreement and all Statements of Work may be terminated by either Party if the other Party commits a material breach of this Agreement, which breach, if capable of being cured, is not cured within thirty (30) days of a written notice of termination. In addition, Firma B may terminate this Agreement immediately upon written notice to Consultant if (i) Consultant refers, by any means, to Firma B in a negative or derogatory way in a public forum, (ii) Consultant is under criminal investigation by any government authority, or (iii) engages in any conduct that would cause Firma B’s association with Consultant to adversely affect Firma B’s reputation.
+
+(b) For Convenience. Firma B has the right to terminate this Agreement and/or one or more Statement of Work for any reason with thirty (30) days’ notice;
+
+Source page 8
+in such event Firma B will still be liable for payment for all services performed in accordance with the requirements of this Agreement prior to such termination date.
+
+11. GENERAL
+
+11.1. Assignment. This Agreement will be binding upon and inure to the benefit of the Parties hereto and their successors and assigns. Consultant may not assign, delegate, subcontract, charge or otherwise encumber any of its rights or obligations under this Agreement without the prior written consent of Firma B.
+
+11.2. Governing Law. The Parties hereby consent and agree that this Agreement will be governed by and interpreted in accordance with the laws of the Commonwealth of Massachusetts without regard to its conflict of laws principles. The Parties further hereby consent and agree that the state courts of Massachusetts and the federal courts located in Boston, Massachusetts will be the exclusive forums to hear and determine any claims or disputes between the Parties pertaining to this Agreement or to any matter arising out of or relating to this Agreement, and the Parties hereby consent to the personal jurisdiction and venue of such courts. Nothing shall preclude either Party from bringing suit or taking other legal action in any other jurisdiction to enforce a judgment or other court order obtained in accordance with this Section 11.2 (Governing Law).
+
+11.3. Severability. If any provision of this Agreement is held to be invalid by a court of competent jurisdiction, then the remaining provisions will nevertheless remain in full force and effect. The Parties further agree to negotiate in good faith a substitute, valid and enforceable provision that most nearly affects the Parties’ intent and to be bound by mutually agreed substitute provision.
+
+11.4. No Waiver. The failure of either Party to enforce at any time any of the provisions of this Agreement will not be deemed to be a waiver of the right of either Party thereafter to enforce any such provisions.
+
+11.5. Survival. The following Sections will survive termination of this Agreement: Sections 5 (Intellectual Property Rights), 6 (Confidentiality), 7 (Non-Solicitation), 8.5 (Intellectual Property), 9 (Indemnification), and 11 (General).
+
+11.6. Notices. Any notice, approval, request, authorization, direction or other communication under this Agreement shall be given in writing and shall be deemed to have been delivered and given for all purposes (a) on the delivery date, if delivered personally to the party to whom the same is directed; (b) one business day after deposit with a commercial overnight carrier, with written verification receipt; or (c) five (5) days after the mailing date if sent by U.S. Mail, return receipt requested, postage and charges prepaid, or any other means of rapid mail delivery for which a receipt is available to the address of the party to whom same is directed as set forth below.
+
+Source page 9
+[NOTICE CONTACTS REMOVED.]
+
+11.7. Publicity. No press release shall be released for dissemination regarding this Agreement or the Services to be performed hereunder unless the parties mutually agree upon the content. Consultant may use Firma B as a reference only after securing prior written permission from Firma B.
+
+11.8. Entire Agreement; Amendments. This Agreement, the Exhibits and the Appendices attached hereto are incorporated herein by reference and constitute the entire, final, complete and exclusive agreement between the Parties and supersede all previous agreements or representations, oral or written, relating to this Agreement. This Agreement may not be modified or amended except in a writing signed by a duly
+
+authorized representative of each Party.
+
+[SIGNATURES, NAMES, TITLES, STAMP AND COMPANY IDENTIFIERS REMOVED.]
+
+Source page 10
+EXHIBIT B PERSONAL INFORMATION PROTECTION RIDER
+
+If, at any time, Consultant receives, collects, stores, maintains or uses Personal Information or Sensitive Personal Information (each defined below) in the course of performing the Services, then Consultant will comply with the applicable provisions of this Exhibit B.
+
+1. DEFINITIONS
+
+11.9. “Personal Information” means any and all information that relates to or identifies an individual or can be used to identify an individual that Consultant receives from Firma B or collects, maintains, stores, uses, or receives access to in the course of providing the Services, including without limitation: (i) name; (ii) home or other physical address, including street name and name of city or town; (iii) email address or other online contact information that reveals the email address; (iv) telephone number; (v) Social Security number or Social Insurance number; (vi) credit, debit or other payment cardholder information, including without limitation, the number assigned by a card issuer that identifies a cardholder’s account, card expiration date, data stored on the magnetic strip of a credit or debit card, and similar information; (vii) financial account information, including without limitation checking account information, such as ABA routing number, account number and check number and ATM card number and PIN; (viii) driver’s license, military, state or other personal identification number; (ix) persistent identifier that is combined with other available data that identifies an individual; (x) date of birth; (xi) health or medical information, including without limitation, medical and benefit plan identification numbers, account numbers and insurance policy numbers; and (xii) any information that is combined with any of the foregoing, and any information derived therefrom, all of the foregoing whether in individual or aggregate form, in any media, and whether or not such information is marked or identified as confidential. Personal Information includes Sensitive Personal Information.
+
+11.10. “Sensitive Personal Information” means an individual’s first name and last name or first initial and last name in combination with any one or more of the following data elements that relate to such resident that Consultant receives from Firma B or collects, maintains, stores, uses, or receives access to in the course of performing the Services: (a) Social Security number; (b) driver’s license number or other government-issued identification number; or (c) financial account number, or credit or debit card number, with or without any required security code, access code, personal identification number or password, that would permit access to a resident’s financial account. Notwithstanding the foregoing, “Personal Information” and “Sensitive Personal Information” do not include information that is lawfully obtained from publicly available information, or from federal, state or local government records lawfully made available to the general public.” Sensitive Personal Information is a subset of Personal Information.
+
+Source page 11
+12. PERSONAL INFORMATION
+
+12.1. Consultant shall only collect, process, store, maintain, use, and disclose Personal Information for the benefit of Firma B and only for the purpose of performing the Services and in compliance with this Agreement and Firma B’s written instructions, and for no other purpose. Consultant shall not have or obtain any rights in any Personal Information.
+
+12.2. Consultant shall comply with all applicable (i) international, federal, state, provincial and local laws, rules, regulations and governmental requirements now or hereafter in effect, including without limitation relating to privacy, data protection, confidentiality or security of Personal Information, and including without limitation the Massachusetts Standards for The Protection of Personal Information of Residents of the Commonwealth (201 CMR 17.00) (“Massachusetts Regulation”) and, to the extent applicable, the E.U. Directive on Data Protection (collectively, “Legal Requirements”); (ii) industry best practices concerning privacy, data protection, confidentiality or security of Personal Information; (iii) Firma B information security policies, privacy policies, and any written Firma B policies, procedures, standards and requirements that are provided to Consultant (“Firma B Privacy Policies”) ((i), (11) and (iii), collectively, “Privacy Requirements”).
+
+12.3. Consultant will take reasonable steps to verify that any employees of Consultant (“Personnel”) and any contractor approved by Firma B (“Permitted Subcontractors”) with access to Personal Information have the capacity to protect such Personal Information, including (i) selecting and retaining Personnel and Permitted Subcontractors that are capable of maintaining safeguards for Personal Information; and (ii) contractually requiring Personnel and Permitted Subcontractors to maintain such safeguards.
+
+12.4. In all events, Consultant will remain fully responsible for and liable to Firma B for
+
+(i) any violations of the requirements of this Agreement, and (ii) any theft or loss of, or unauthorized or unlawful disclosure, use, alteration or destruction of, or unauthorized or unlawful access to, or other compromise of, Personal Information, or of any network, server, site or system that contains any Personal Information, and including without limitation, any misuse, release or compromise by Personnel or Permitted Subcontractors of any passwords, security tokens or other user devices, credentials or information that enable access to Firma B’s network or systems containing Personal Information (each, a “Security Incident”).
+
+12.5. In the event of a Security Incident, Consultant shall promptly notify Firma B in writing as provided in Section 11.6 of the Agreement (Notices), and shall immediately notify the Project Manager, Firma B’s Global Privacy Office, and Firma B’s Legal Department. Consultant shall promptly take all necessary and advisable corrective actions, and shall cooperate fully with Firma B in all reasonable and lawful efforts to prevent, mitigate, remedy and/or rectify such occurrence.
+
+12.6. Without limitation of any other obligation hereunder, Consultant shall establish controls to ensure the confidentiality, security, and integrity of Personal Information
+
+Source page 12
+and to ensure that Personal Information is not disclosed or accessed contrary to the provisions of this Personal Information Protection Agreement or any applicable Privacy Requirement. Consultant shall implement and maintain appropriate administrative, technical and physical safeguards and other appropriate security measures (including without limitation measures to protect computer hardware, software and internet security systems with regard to Consultant’s collection, processing, storage, use, disclosure or disposal of Personal Information), designed to ensure that Consultant and its employees, agents, vendors and subcontractors (i) maintain the security and confidentiality of Personal Information; (ii) protect against any anticipated threats or hazards to the security and integrity of Personal Information; and (iii) protect against any Security Incident.
+
+12.7. Consultant must notify Firma B’s Privacy Office in writing if at any time it is unable to meet its obligations under this Exhibit B.
+
+13. PRIVACY SHIELD AND ONWARD TRANSFERS OF EUROPEAN AND SWISS PERSONAL INFORMATION
+
+13.1. Inthe event Consultant receives, collects, stores, maintains, or uses Personal Information pertaining to European Union and Swiss residents (“EU/Swiss Personal Information”) in the course of performing the Services, the following shall apply:
+
+(a) Consultant shall process EU/Swiss Personal Information in accordance with the EU-U.S. Privacy Shield Framework and Swiss-U.S. Privacy Shield Framework (“Privacy Shield”) Principles and Supplemental Principles as they may be amended from time to time (collectively “the Principles”) with the exception of the Notice and Choice principles.
+
+(b) Consultant shall cooperate with Firma B in investigating and responding to any complaint relating to EU/Swiss Personal Information processed by Consultant pursuant to this Agreement.
+
+(c) Consultant shall permit Firma B to share this Exhibit B with the United States Department of Commerce as necessary to satisfy Firma B’s obligations under Privacy Shield.
+
+13.2. In the event Consultant has self-certified its adherence to Privacy Shield (“Privacy Shield Certification”), Consultant:
+
+(a) represents and warrants that its Privacy Shield Certification is registered with United States Department of Commerce and that it complies with the Privacy Shield framework, Principles and any related requirements located at [URL REMOVED] as may be amended from time to time, with the exception of the Notice and Choice principles;
+
+(b) will maintain its Privacy Shield Certification for the duration of this Agreement. Consultant will handle all EU/Swiss Personal Information Processed pursuant to this Agreement in compliance with the Principles.
+
+Source page 13
+If the Privacy Shield framework is declared invalid by the European Court of Justice or Swiss Federal Administrative Court, or is no longer approved as a legal data transfer mechanism by the European Commission or Swiss Federal Data Protection and Information Commissioner (“FDPIC”), Consultant agrees to execute the European Commission Standard Contractual Clauses (adapted to Swiss law requirements when necessary) between Controllers and Processors with Firma B, or comply with another cross-border data transfer mechanism approved by the European Commission or FDPIC to allow EU/Swiss Personal Information to be transferred to Consultant.
+
+14. SENSITIVE PERSONAL INFORMATION
+
+14.1. Consultant acknowledges that under this Agreement, it may own, receive, collect, maintain, store, use, or receive access to Sensitive Personal Information in the course of performing the Services, about a resident of the Commonwealth of Massachusetts and hereby certifies the following:
+
+(a) Consultant has a written, comprehensive information security program that is in compliance with the Massachusetts Regulation.
+
+(b) Consultant has implemented reasonable technical, physical, and administrative safeguards to ensure the security and confidentiality of the Sensitive Personal Information in compliance with the Massachusetts Regulation.
+
+14.2. Prior to permitting Personnel and Permitted Subcontractors access to Sensitive Personal Information, the Consultant shall obtain from the Personnel or Permitted Subcontractors a written certification that such Personnel and Permitted Subcontractor has a written, comprehensive information security program that is in compliance with the provisions of the Massachusetts Regulation and other legal requirements that require such a certificate. Consultant will provide Firma B with a
+
+copy of such certificate at Firma B’s request.

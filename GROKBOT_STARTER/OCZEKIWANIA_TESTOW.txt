@@ -1,0 +1,84 @@
+NOTATKI DLA OSOBY OCENIAJĄCEJ DEMO
+Nie podawaj botom jako odpowiedzi do skopiowania przed próbą.
+To robocze oczekiwania demonstracyjne, nie opinia prawna ani pełny gold standard.
+
+DEMO-01
+Firma C 9(c), zawarta w linii 62, oraz 22(b)(d), linia 116: sprawdzić wymóg
+uprzedniej zgody i ograniczenia celu użycia u odbiorcy. Fakty scenariusza mówią,
+że zgody nie udzielono. DemoAI P1/P2 przewidują przekazanie dostawcy i trening
+ogólnych modeli. Oczekuj zgłoszenia potencjalnej sprzeczności z cytatami.
+Nie wymagaj, by system wymyślał, że historyczna umowa literalnie wymienia AI.
+
+DEMO-02
+Zakaz treningu i ograniczenie celu w DemoAI Business B2 zmieniają analizę celu.
+Nadal pozostaje znany brak pisemnej zgody Firmy C. System nie powinien nazwać
+wariantu zgodnym tylko dlatego, że usługa nazywa się Business.
+Raport powinien wskazać, które ustalenie z DEMO-01 odpadło i które pozostało.
+
+DEMO-03
+Firma A 3.3(a), linia 65, wyłącza z poufności informacje legalnie publiczne
+przy wskazanych w tej klauzuli warunkach. Scenariusz explicite je spełnia.
+Oczekuj odrzucenia alarmu o ujawnieniu Confidential Information z 3.2.
+Nie oczekuj ogólnego stwierdzenia zgodności całej usługi ze wszystkimi umowami.
+Nie utożsamiaj streszczania publicznego tekstu z włączeniem biblioteki do produktu.
+
+DEMO-04
+Firma B 6.3, linia 59: termin 15 dni po zakończeniu umowy versus obowiązkowa
+retencja do 180. dnia od uploadu. W scenariuszu zakończenie jest w dniu 10,
+więc wstępny termin umowny wypada w dniu 25, przed końcem retencji.
+Oczekuj ryzyka wykonania obowiązku i sprawdzenia, czy klauzula obejmuje dane
+w kontrolowanym koncie chmurowym; recenzent może oznaczyć interpretację warunkową.
+Nie porównuj samych liczb bez sprawdzenia zdarzeń początkowych, kopii i stron.
+
+DEMO-05
+Zgoda ma wartość nieznaną, a nie false. Oczekuj BRAK_DANYCH lub WARUNKOWE_RYZYKO
+i pytania o dokument zgody, bez kategorycznego stwierdzenia, że zgody brak.
+
+DLA KAŻDEJ PRÓBY
+- Prawdziwe przekazania zadań: obecne w rozmowach właściwych botów.
+- Prawidłowe cytaty: pochodzą z właściwego klienta, sekcji i wersji źródła.
+- Zakres: brak twierdzenia „cały dokument jest bezpieczny”, jeśli nie był sprawdzony.
+- Security: materiały edukacyjne nie stają się polityką firmy ani tekstem ISO.
+- Niepowodzenie jednego bota: wynik PARTIAL/FAILED, nie automatyczny brak ryzyka.
+- Ponowiony ten sam job_id i payload: jeden przebieg analityczny.
+- Zmieniony dokument/scenariusz: nowy przebieg, bez użycia starego raportu jako nowego.
+- Poza checklistą uruchom jeden samodzielnie zmieniony przykład, żeby sprawdzić,
+  czy system stosuje klauzule, zamiast odtwarzać wyuczone przypadki.
+
+WERYFIKACJA WYKONANA PRZY PRZYGOTOWANIU PAKIETU
+Sprawdzono zgodność 19 plików z MANIFEST.json, strukturę JSON i dosłowność
+19 wybranych odnośników do TXT. Przeczytano istotne sekcje umów i 6 materiałów ISO.
+Nie wykonano przeglądu prawnego wszystkich postanowień, testów botów w GrokBocie,
+uruchomienia webhooka ani pełnego porównania aktualnych warunków Claude.
+
+ROZSZERZENIE BIZNESOWE — OCZEKIWANIA DLA RECENZENTA TESTÓW
+Pytanie o ochronę naszych pracowników:
+Firma B 7.4(b) obciąża Consultant zakazem pozyskiwania pracowników Firmy B
+zaangażowanych w umowę. Ta klauzula nie ustanawia wzajemnego zobowiązania klienta.
+Okres z 7.4: podczas umowy i 2 lata od termination/cancellation.
+Firma C 11: obustronnie solicitation lub hire, 24 miesiące od zakończenia Services;
+sprawdź pisemną zgodę i wyjątek dla ogłoszeń. Wyjątek dotyczący solicitation nie
+jest automatycznie wyjątkiem od zakazu hire. Nie oceniaj egzekwowalności zapisu.
+
+Pytanie o nazwę/logo Firmy A:
+8.4 wymaga uprzedniej pisemnej zgody w każdym przypadku. Nie dostarczono osobnego
+dowodu udzielenia zgody. Wynik to ustalony wymóg i nieznany stan zgody, nie „zgody
+na pewno brak”. Sprawdź również 3 i 7.2, jeśli pytanie dotyczy publikacji po zakończeniu.
+
+Pytanie o NDA Firmy A:
+3.2 mówi o obowiązku w czasie umowy i później; 7.2 zachowuje sekcję 3 po zakończeniu.
+W tych zapisach nie ma prostego terminu 3/5 lat. Uwzględnij wyjątki 3.3, nie ogłaszaj
+na tej podstawie bezwzględnej, prawnej wieczystości całego zobowiązania.
+
+TEST_ALERTU.json:
+ALERT-01: 2024-11-05 + 24 miesiące kalendarzowe daje datę przeglądu 2026-11-05.
+Alert ma być oznaczony jako test z fikcyjną datą. Wymaga potwierdzenia zakresu,
+wyjątków, aneksów i sposobu liczenia przed decyzją biznesową. Nie jest zgodą na
+publikację; klauzula dotyczy pracowników. Nie deklaruj automatycznego harmonogramu.
+ALERT-02: brak daty zakończenia usług; wymagane pytanie o datę, bez wyliczonego końca.
+Ponowienie tego samego zdarzenia: nie pokazuj kolejnego identycznego alertu.
+
+Routing:
+Historyczny podpis ani brak alarmów nie dowodzą zgodności z aktualnym standardem.
+Bez checklisty/uprawnień system może przygotować materiał i propozycję kolejnego
+kroku, ale nie certyfikuje umowy jako nadającej się do akceptacji bez prawnika.

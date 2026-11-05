@@ -1,0 +1,104 @@
+{
+  "documents": 9,
+  "formats": [
+    "pdf",
+    "txt"
+  ],
+  "files": [
+    {
+      "file": "CZYTAJ_NAJPIERW.txt",
+      "sha256": "b9397c37d576396da37e4359225da8aa39922c4238b4c60ce250efbbc4c13c38",
+      "bytes": 2713
+    },
+    {
+      "file": "ISO/01_Podstawowe_pojecia_bezpieczenstwa.pdf",
+      "sha256": "a0878876073a3369824d0032252d07ca8d284ae84ea378efd73cc7b00a90802c",
+      "bytes": 53683
+    },
+    {
+      "file": "ISO/01_Podstawowe_pojecia_bezpieczenstwa.txt",
+      "sha256": "ecfd07966c9989b7b51409599ad8ee58a7642caadc32635e5ea314ebeb17d9f5",
+      "bytes": 1850
+    },
+    {
+      "file": "ISO/02_Bezpieczenstwo_w_umowach_z_dostawcami.pdf",
+      "sha256": "4f9b2a17ddb5d091a27fb4df0ff76a3aec1ad7919e624e87ae637348695620a4",
+      "bytes": 53599
+    },
+    {
+      "file": "ISO/02_Bezpieczenstwo_w_umowach_z_dostawcami.txt",
+      "sha256": "ed128cef9123fbd4c6d14a0141919455b3065404d4e0f68c4d36a2c1c0859b88",
+      "bytes": 1899
+    },
+    {
+      "file": "ISO/03_Ocena_uslug_chmurowych.pdf",
+      "sha256": "30e0c1c601c60dc833cb1ade93634777e3419d158c13185a8c3b1883fc2bbb08",
+      "bytes": 53606
+    },
+    {
+      "file": "ISO/03_Ocena_uslug_chmurowych.txt",
+      "sha256": "b88b0ad23f19b7045b5f38f0189e56d0d8bc705a587fdf4950e4bdf412e112c3",
+      "bytes": 1808
+    },
+    {
+      "file": "ISO/04_Poufnosc_i_kontrola_dostepu.pdf",
+      "sha256": "69988e5cc976fffa496a7abfcdc504ab4e6ef7b5ccdb9a3ac7f505106eb55e43",
+      "bytes": 53377
+    },
+    {
+      "file": "ISO/04_Poufnosc_i_kontrola_dostepu.txt",
+      "sha256": "7ce0ab19cbf79d4027c13f5953dbbcc4c9cd9d891c7db43fa2fbaf1906522062",
+      "bytes": 1625
+    },
+    {
+      "file": "ISO/05_Incydenty_i_ciaglosc_dzialania.pdf",
+      "sha256": "b5bb3c4055cdb43d98dd3ac87a8890ea7c9441e0ab3203df7d99d626881418d9",
+      "bytes": 53173
+    },
+    {
+      "file": "ISO/05_Incydenty_i_ciaglosc_dzialania.txt",
+      "sha256": "aa8a24f1199ac004561c38e05c6f26f0f2e3cd280645db50b2de5c4883f9ba40",
+      "bytes": 1634
+    },
+    {
+      "file": "ISO/06_Bezpieczne_oprogramowanie_i_licencje.pdf",
+      "sha256": "d3e8818b550aa4728f1c19e92136cecacb6933e3aa3e5dd8c52709edd174b3df",
+      "bytes": 53533
+    },
+    {
+      "file": "ISO/06_Bezpieczne_oprogramowanie_i_licencje.txt",
+      "sha256": "fe5ed6cda8c2e6264f7211d2867d19d2780f82e999f977ed93303820b9d7e6ad",
+      "bytes": 1734
+    },
+    {
+      "file": "Umowy/Firma_A_Umowa.pdf",
+      "sha256": "09b86ddef5e17b2aed904aa94166ae1c8197a91da751fa8fe60a1ec0cbe9049d",
+      "bytes": 111482
+    },
+    {
+      "file": "Umowy/Firma_A_Umowa.txt",
+      "sha256": "74ba2211749455389c2a1436b010a0b33e94baad4f36871716586b45100340aa",
+      "bytes": 91052
+    },
+    {
+      "file": "Umowy/Firma_B_Umowa.pdf",
+      "sha256": "78695393a28bab3371a10e3eac5811aeeec6bad5f8843bc925d2471ad0a9c167",
+      "bytes": 76930
+    },
+    {
+      "file": "Umowy/Firma_B_Umowa.txt",
+      "sha256": "32c8bce8e8e29a2fa9996eb230e7c4cc7e151cc92fca1fc0abf359dc9c9c9a0f",
+      "bytes": 37389
+    },
+    {
+      "file": "Umowy/Firma_C_Umowa.pdf",
+      "sha256": "9295e16df2155cdb910e983d942d99c3cdadd4871df1494ed771ade095476670",
+      "bytes": 85924
+    },
+    {
+      "file": "Umowy/Firma_C_Umowa.txt",
+      "sha256": "86cb476c2e7bc613a4e9079af352333926146df1b831768a84e66e1be435f0c8",
+      "bytes": 52291
+    }
+  ]
+}

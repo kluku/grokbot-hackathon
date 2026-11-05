@@ -1,0 +1,50 @@
+{
+  "notice": "Dwa odrębne przypadki testowe na prawdziwej klauzuli historycznej. Daty zakończenia usług są fikcyjne; nie reprezentują stanu umowy ani nie aktywują harmonogramu. Wyliczona data jest terminem przeglądu, nie pozwoleniem na zatrudnienie lub publikację.",
+  "as_of": "2026-11-05",
+  "timezone": "Europe/Warsaw",
+  "simulation": true,
+  "cases": [
+    {
+      "case_id": "ALERT-01",
+      "obligation_id": "C-non-solicitation-demo-known",
+      "source": {
+        "id": "C-11",
+        "file": "Umowy/Firma_C_Umowa.txt",
+        "sha256": "86cb476c2e7bc613a4e9079af352333926146df1b831768a84e66e1be435f0c8",
+        "line": 72,
+        "section": "11 — numeracja OCR",
+        "source_page_marker": "5",
+        "quote": "11. Non-soticitation and Contracting. For a period of twenty-four (24) months afler conclusion of the Services, neither party shall solicit or hire as an employee or independent contractor any employee of the other party without the prior written consent of such other party. Publications of open positions in media of gencral circulation will not constitute solicitation by either party,"
+      },
+      "trigger_event": "conclusion of the Services",
+      "trigger_date": "2024-11-05",
+      "trigger_date_source": "Wyłącznie fikcyjny fakt scenariusza testowego. Nie wywnioskowano z daty podpisu umowy.",
+      "period": {
+        "value": 24,
+        "unit": "calendar_months"
+      },
+      "owner_role": "Osoba odpowiedzialna za umowę — etykieta demo, nie wskazanie konkretnego odbiorcy"
+    },
+    {
+      "case_id": "ALERT-02",
+      "obligation_id": "C-non-solicitation-demo-unknown",
+      "source": {
+        "id": "C-11",
+        "file": "Umowy/Firma_C_Umowa.txt",
+        "sha256": "86cb476c2e7bc613a4e9079af352333926146df1b831768a84e66e1be435f0c8",
+        "line": 72,
+        "section": "11 — numeracja OCR",
+        "source_page_marker": "5",
+        "quote": "11. Non-soticitation and Contracting. For a period of twenty-four (24) months afler conclusion of the Services, neither party shall solicit or hire as an employee or independent contractor any employee of the other party without the prior written consent of such other party. Publications of open positions in media of gencral circulation will not constitute solicitation by either party,"
+      },
+      "trigger_event": "conclusion of the Services",
+      "trigger_date": null,
+      "trigger_date_source": null,
+      "period": {
+        "value": 24,
+        "unit": "calendar_months"
+      },
+      "owner_role": "Osoba odpowiedzialna za umowę — etykieta demo"
+    }
+  ]
+}

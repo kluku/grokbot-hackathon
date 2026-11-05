@@ -1,0 +1,120 @@
+CONTRACT SENTINEL — WARTOŚĆ DLA NATALII I SALES
+Propozycja zakresu po rozmowie przekazanej przez użytkownika, 2026-11-05.
+To materiały przygotowawcze, nie wdrożenie ani aktywne przypomnienie.
+
+TEZA PRODUKTOWA
+Już dziś część standardowych umów czytają osoby biznesowe. Agent skraca szukanie
+warunków, porównanie z przyjętą checklistą i ustalenie, co wymaga wyjaśnienia.
+Karta umowy służy także późniejszym pytaniom oraz pilnowaniu terminów.
+Zysk nie wymaga pełnej automatyzacji podpisywania lub całkowitego braku czytania.
+Sam brak alarmów nie jest podstawą do automatycznej akceptacji.
+
+ZAKRES NA 3 GODZINY
+P0: jedna karta umowy + trzy pytania biznesowe ze źródłami.
+P0: recenzent weryfikuje kierunek zobowiązania, wyjątki i brakujące informacje.
+P0: zachowaj jeden scenariusz porównania nowych warunków z dotychczasowego demo.
+P1: jeden alert o wyliczonym terminie; maksymalnie 20 minut pracy nad automatyzacją.
+Poza sprintem: autonomiczne akceptacje, redlining, Slack/CRM, panel uprawnień,
+pełny system zarządzania umowami i budowanie polityki firmy z samych precedensów.
+Nie dodawaj botów. Użyj istniejącego czatu i jednego formatu danych/raportu.
+Koszt względny: karta niski (rozszerzenie ekstrakcji), Q&A niski (ten sam rejestr
+i źródła), alert średni (stan i data zdarzenia). To szacunek zakresu, nie pomiar.
+
+KARTA UMOWY
+Pokaż najwyżej sześć obszarów: marketing/referencje, poufność, pozyskiwanie
+pracowników, podwykonawcy/udostępnienie, IP/licencje, terminy po zakończeniu.
+Dla każdego: odpowiedź, kto jest zobowiązany, kogo/co chroni klauzula, warunki,
+wyjątki, początek biegu terminu, czas trwania, dowód i następny krok.
+Wartości: USTALONO / NIE_ZNALEZIONO_W_ZAKRESIE / NIEJASNE / BRAK_DANYCH.
+NIE_ZNALEZIONO_W_ZAKRESIE wymaga jawnego zakresu przeszukania; nie oznacza
+uniwersalnego braku obowiązku ani zgody na działanie.
+Oddziel wymóg posiadania zgody od dowodu, że konkretnej zgody udzielono.
+Oddziel zakaz pozyskiwania od zakazu zatrudnienia; wskaż kierunek i wyjątki.
+Poufność może zależeć od rodzaju informacji i wyjątków, a nie jednej daty.
+
+KIEDY DO KOGO — PROPOZYCJA, NIE OBOWIĄZUJĄCA POLITYKA
+Weryfikacja biznesowa: osoba mająca uprawnienie może korzystać z karty i
+potwierdzonej checklisty dla konkretnego typu umowy.
+Do wyjaśnienia: brakuje zgody, załącznika, daty lub aktualnej wersji.
+Przegląd prawny: niejasna interpretacja, kolizja albo odstępstwo wymagające
+eskalacji według zatwierdzonej checklisty.
+Nie zakładaj, że historyczna podpisana umowa reprezentuje aktualny standard.
+Mogła być świadomym wyjątkiem. W paczce nie ma zatwierdzonej checklisty ani
+zakresów upoważnień. Pokazuj więc propozycję dalszego kroku, nie automatyczną
+decyzję „bez prawnika”. Przyjęcie reguł routingu wymaga właściciela procesu.
+Trzy obszary karty nie wystarczają do uznania całej umowy za standardową.
+Nie potrzebujemy rozstrzygać tej polityki, żeby pokazać działające Q&A.
+
+PROMPT — ROZSZERZENIE DLA SENTINELA
+Zapamiętaj dodatkowe tryby: CARD, QUESTION i DEADLINE_REVIEW. Zachowaj wcześniejszy
+tryb analizy sprzeczności. W trybie CARD zleć Contracts ekstrakcję karty umowy,
+a Reviewer jej sprawdzenie na źródłach. W trybie QUESTION przekaż Contracts
+pytanie, wersję karty i źródła, następnie Reviewer sprawdza odpowiedź. Security
+wybudzaj wtedy, gdy pytanie dotyczy bezpieczeństwa, nie przy każdym pytaniu.
+Każda odpowiedź ma zawierać odpowiedź wprost, cytat/odsyłacz, wyjątek lub brak
+danych i następny krok. Nie uruchamiaj całej analizy umów dla pytania o jedną klauzulę.
+Karty indeksuj po identyfikatorze umowy i hashach źródeł. Zmiana umowy/aneksu
+unieważnia poprzednią kartę. Aktualizuj fakty po dowodach, nie tylko po pamięci bota.
+Stan READY_FOR_HUMAN_REVIEW oznacza materiał dla człowieka. Pole recommended_route
+jest osobne: BUSINESS_REVIEW, CLARIFICATION, LEGAL_REVIEW lub RULES_NOT_ESTABLISHED.
+Wskaż podstawę propozycji. Bez przyjętej checklisty nie potwierdzaj standardowości
+ani ominięcia prawnika. Nie podpisuj, nie akceptuj i nie publikuj za użytkownika.
+
+PROMPT — ROZSZERZENIE DLA CONTRACTS
+Twórz kartę w powyższych sześciu obszarach. Dla marketingu rozróżnij logo/nazwę,
+referencję, case study i ujawnienie szczegółów projektu. Dla ochrony pracowników
+podaj osobno: zakaz ciążący na wykonawcy wobec klienta oraz na kliencie wobec
+wykonawcy; rekrutacja, zatrudnienie, okres, zdarzenie początkowe i wyjątki.
+Dla NDA sprawdź obowiązywanie po zakończeniu i wyjątki. Nie wpisuj 3/5 lat bez
+cytatu. Dla terminów oddziel datę podpisu, zakończenie usług i rozwiązanie umowy.
+Na pytanie sales odpowiadaj krótko na podstawie aktualnego źródła; nie ograniczaj
+się do nazwy rozdziału ani nie traktuj jej jako wystarczającego dowodu.
+Brak daty, aneksu lub zgody zapisz jako unknown. Nie zastępuj ich założeniem.
+
+PROMPT — ROZSZERZENIE DLA REVIEWERA
+Weryfikuj odpowiedzi biznesowe z naciskiem na kierunek ochrony, wyjątki, zakres
+i rozróżnienie „wymagana zgoda” / „zgoda istnieje”. Sprawdź powiązane klauzule
+przetrwania obowiązków. Nagłówek Non-Solicitation nie dowodzi wzajemności.
+Przy terminach wymagaj źródła daty zdarzenia. Wygaśnięcie jednego zakazu nie
+uchyla poufności, zasad publikacji ani innych zobowiązań. Nie przedstawiaj
+upływu daty jako zgody na publikację lub zatrudnienie.
+
+PROMPTY DO DEMO
+1. @Sentinel utwórz i poddaj recenzji kartę umowy Firmy B. Wskaż sześć obszarów
+   opisanych wyżej, nieznane dane oraz źródła. Nie przyjmuj polityki firmy z historii.
+2. @Sentinel czy klauzula o pracownikach w umowie B chroni także pracowników
+   wykonawcy? Porównaj zakres i kierunek z umową C. Podaj źródła i wyjątki.
+3. @Sentinel czy możemy użyć nazwy i logo Firmy A na naszej stronie? Czy w paczce
+   jest dowód zgody? Oddziel wymóg umowny od stanu udzielonych zgód.
+4. @Sentinel czy poufność w umowie A kończy się po 3 lub 5 latach?
+5. Opcjonalnie: @Sentinel wykonaj DEADLINE_REVIEW z TEST_ALERTU.json, z datą
+   testową as_of. Oznacz fikcyjną datę zdarzenia. Zleć Contracts i Reviewer
+   weryfikację i pokaż alert w tej rozmowie. Nie twórz prawdziwego harmonogramu.
+
+ALERT — NAJMNIEJSZA WERSJA
+Jeden rekord: obligation_id, contract_hash, klauzula, zdarzenie_początkowe,
+data_zdarzenia, źródło_daty, okres, wyliczona_data_przeglądu, owner_role,
+status_weryfikacji, simulation. Dla kalendarzowych miesięcy nie używaj 30 dni/miesiąc.
+Brak daty oznacza BRAK_DATY_ZDARZENIA, bez fikcyjnego terminu końcowego.
+Sentinel w teście rutyny sprawdza rekordy, wybudza Contracts dla zbliżającego się
+terminu, a potem Reviewer. Ten sam alert pokazuje raz (klucz: obligation_id,
+hash źródła, data zdarzenia, typ przypomnienia). Zmiana daty/aneksu wymaga przeliczenia.
+Odbiorcą demo jest użytkownik w GrokBocie, bez wysyłania wiadomości na Slack.
+Mechanizm harmonogramu można dołączyć później; na scenie Test/webhook uruchamia
+ten sam przegląd z wyraźnie oznaczoną datą symulowaną. Nie twierdź, że timer już działa.
+
+POMIAR WARTOŚCI
+Przed próbą daj osobie trzy pytania bez karty; zmierz czas znalezienia poprawnych
+odpowiedzi ze źródłami. Potem zmierz inne porównywalne pytania z kartą/agentem,
+albo użyj innej osoby, aby ograniczyć efekt zapamiętania. Policz błędy i pominięcia.
+W czasie wspomaganym uwzględnij oczekiwanie na agentów i weryfikację cytatów.
+Osobno pokaż jednorazowy koszt/czas utworzenia kart i kolejne pytania.
+Próba demonstracyjna nie dowodzi niezawodności ani procentowej oszczędności w firmie.
+Mierz: czas do poprawnej odpowiedzi, odsetek odpowiedzi popartych właściwą klauzulą,
+wykryte brakujące dane i błędnie stwierdzone zgody. Nie obiecuj określonej redukcji
+kosztów prawników bez danych porównawczych.
+
+PITCH
+Contract Sentinel pomaga zespołowi biznesowemu szybko zrozumieć warunki umów,
+sprawdzić nowe zobowiązania i pilnować terminów. Osoby przeglądające umowy dostają
+krótką kartę ze źródłami oraz wskazanie, co wymaga wyjaśnienia lub interpretacji.

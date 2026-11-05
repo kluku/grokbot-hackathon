@@ -1,0 +1,114 @@
+CONTRACT SENTINEL — przygotowanie do hackathonu, 5 listopada 2026
+
+Cel: skrócenie przeglądu umów przez zespół biznesowy: karta najważniejszych
+warunków, odpowiedzi ze źródłami oraz analiza nowych warunków względem
+istniejących zobowiązań. Kwestie wymagające interpretacji trafiają do prawnika.
+Ten pakiet zawiera instrukcje i przypadki demonstracyjne. Nie jest działającą
+instalacją GrokBota ani zweryfikowaną opinią prawną.
+
+AKTUALIZACJA PO ROZMOWIE Z NATALIĄ
+Przeczytaj ROZSZERZENIE_BIZNESOWE.txt: zalecane minimum to karta umowy i trzy
+pytania sales. Alert o jednym terminie jest opcjonalny (maksymalnie 20 minut
+implementacji). Zachowaj jeden scenariusz sprzeczności z wcześniejszego planu.
+Zaktualizowany harmonogram i scenariusz prezentacji znajdują się poniżej.
+
+REKOMENDOWANY WARIANT
+4 osobne boty na jednym koncie GrokBot, jedna grupa, wspólny katalog plików.
+Sentinel: przyjmuje zgłoszenie, zleca pracę, zbiera wyniki, publikuje raport.
+Contracts: analizuje zobowiązania, tworzy karty umów i odpowiada na pytania sales.
+Security: ocenia zagadnienia bezpieczeństwa i braki informacji.
+Reviewer: ponownie otwiera źródła, sprawdza ustalenia, wyjątki i pominięcia.
+W analizie ryzyka Contracts i Security pracują równolegle, a potem Reviewer.
+Przy pytaniu o klauzulę wystarczą Contracts i Reviewer; Sentinel wybiera ścieżkę.
+
+JAK URUCHOMIĆ
+1. Sprawdź logowanie do GrokBota, działanie komputera w chmurze i dostępny limit.
+2. New Bot (+ lub Cmd+N): utwórz Sentinel, Contracts, Security, Reviewer.
+3. Do każdego wklej blok WSPÓLNE ZASADY z PROMPTY.txt i właściwy blok roli.
+4. New chat / Cmd+Shift+N: dodaj te cztery boty do grupy Contract Sentinel.
+   Nie trzeba zmieniać istniejącego primary Bota. Wybieraj właściwe boty przez @.
+5. Do Sentinela dołącz 3 pliki TXT z Umowy, 6 TXT z ISO, CZYTAJ_NAJPIERW.txt
+   oraz PROMPTY.txt i SCENARIUSZE_DEMO.json. Nie wczytuj drugi raz tych samych PDF.
+   Gdy są problemy z załącznikami, podziel je na kilka wiadomości.
+6. Wklej blok PRZYGOTOWANIE DANYCH. Sentinel ma zapisać źródła we wspólnym
+   katalogu /workspace/contract-sentinel i podać pozostałym botom ich ścieżki.
+   To katalog komputera GrokBota, a nie folder na Twoim Macu.
+7. Najpierw zrób test: Sentinel zleca Contracts odczyt jednego pliku i odbiera
+   odpowiedź z cytatem. Sprawdź w rozmowach obu botów, że przekazanie nastąpiło.
+8. Wklej blok URUCHOMIENIE JEDNEGO PRZYPADKU i wybierz DEMO-01.
+   Bez ręcznego kopiowania wyników ma powstać raport po recenzji.
+9. Dopiero gdy całość działa, użyj AUTOMATYZACJA.txt: skill, rutyna, webhook.
+10. Raport pokaż jako kartę/pliki w GrokBocie. Jeśli na koncie dostępne są Pages,
+    poproś o prywatną stronę raportu. W przeciwnym razie wystarczy plik HTML.
+11. Zastosuj prompty z ROZSZERZENIE_BIZNESOWE.txt. Zacznij od karty Firmy B
+    i pytań o marketing, czas poufności i kierunek ochrony pracowników.
+    Nie dodawaj nowych botów ani integracji. Karta jest analizą źródeł, nie zgodą
+    na podpisanie. Brak przyjętej checklisty firmy uniemożliwia potwierdzenie
+    kategorii „standardowa umowa”; historyczne podpisane umowy to precedensy.
+
+DANE I GRANICE WNIOSKOWANIA
+Umowy A/B/C to zanonimizowane historyczne kopie demonstracyjne. Dla demo
+przyjmujemy je jako obowiązującą bazę scenariusza, bez twierdzenia, że obowiązują
+dzisiaj w firmie. B i C zawierają błędy OCR. Zachowuj oryginalne brzmienie cytatu.
+Wskazuj Source page z TXT oraz sekcję i linię; nie myl tego z numeracją nowego PDF.
+ISO zawiera materiały edukacyjne, nie firmowe polityki, tekst normy ani SoA.
+Wynik Security to pytania/braki dowodów, a nie stwierdzenie niezgodności z ISO.
+Nie ustalono aktualnych T&C Claude punkt po punkcie w ramach tego pakietu.
+SCENARIUSZE_DEMO używają PRAWDZIWYCH klauzul bazowych z umów i WYMYŚLONYCH
+warunków dostawcy DemoAI, wyraźnie tak oznaczonych. Nie przypisuj ich Anthropic.
+
+PRZYGOTOWANIE PRZED WYDARZENIEM
+- Miej gotowe logowanie, aktualną aplikację, laptop, ładowarkę i zapas internetu.
+- Wybierz główny scenariusz, trzy najważniejsze kryteria i osobę prezentującą.
+- Potwierdź z organizatorami dopuszczalność gotowych materiałów/kodu i narzędzi
+  pomocniczych. Opis mówi o budowaniu od zera i użyciu SpaceXAI; nie wyjaśnia
+  wszystkich zasad. ChatGPT może służyć do przygotowania, jeśli zasady pozwalają.
+- Na start wystarczą dokumenty TXT. Nie buduj OCR, bazy wektorowej ani integracji
+  pocztowych. Dla tego zbioru najpierw zrób jawny rejestr klauzul i ich źródeł.
+
+PODZIAŁ ZESPOŁU 3–4 OSÓB
+A: GrokBot, role, przekazywanie pracy i rutyna.
+B: klauzule, scenariusze, ocena poprawności i fałszywych alarmów.
+C: raport i widoczny przebieg pracy, ewentualny prosty przycisk webhooka.
+D: próby, pomiary czasu, prezentacja i zapasowe nagranie; przy 3 osobach B/C.
+
+SPRINT 18:00–21:00, EUROPE/WARSAW
+18:00–18:20: minimalne role, źródła, test przekazania zadania.
+18:20–19:00: karta umowy B, cytaty, recenzja i jeden kompletny przebieg.
+19:00–19:30: trzy pytania sales na istniejącym czacie i kontrola poprawności.
+19:30–19:50: jeden wcześniejszy scenariusz sprzeczności, np. DEMO-02.
+19:50–20:10: opcjonalny alert z symulowaną datą i jednym wyzwalaczem rutyny.
+20:10–20:30: poprawki, pomiar czasu uzyskania odpowiedzi, próba demo.
+20:30–21:00: zamrożenie funkcji, dwie próby, nagranie i zgłoszenie projektu.
+Jeśli do 19:30 nie działa karta + pytania + recenzja, zrezygnuj z alertu i nowego
+frontendu. Użyj wiadomości inicjującej w GrokBocie; webhook nie jest konieczny
+do pokazania, że Sentinel sam zleca pracę kolejnym agentom.
+
+DEMO 2–3 MINUTY
+1. Problem: standardowe umowy już dziś czytają osoby biznesowe; potrzebują
+   szybko znaleźć warunki, wyjątki i informację, kiedy poprosić o pomoc.
+2. Pokaż kartę Firmy B: marketing, poufność, ochrona pracowników, terminy, cytaty.
+3. Zapytaj, czy zakaz podbierania pracowników chroni wykonawcę. Pokaż kierunek
+   zobowiązania w B i porównanie z obustronną klauzulą C.
+4. Pokaż jeden wynik analizy sprzeczności z nowymi warunkami, z wcześniejszego demo.
+5. Jeśli gotowe: wywołaj test rutyny przeglądu terminów. Sentinel sam wybudza
+   Contracts i Reviewer; alert dotyczy wyliczonego terminu, nie zgody na działanie.
+6. Pokaż następny krok i wynik pomiaru, o ile został rzeczywiście wykonany.
+Nie odtwarzaj wcześniejszych wyników jako analizy na żywo. Nagranie oznacz jako
+nagranie, a wynik częściowy jako częściowy.
+
+DEFINICJA GOTOWEGO DEMO
+Jedno zgłoszenie uruchamia pracę kilku botów bez ręcznego przenoszenia wiadomości.
+Każdy istotny wniosek ma weryfikowalne dowody i zakres zastosowania.
+Recenzent potrafi odrzucić fałszywy alarm; raport pokazuje również braki i pokrycie.
+Ponowiony identyczny webhook nie uruchamia drugiej analizy tego samego zgłoszenia.
+Brak odpowiedzi, brak źródła i nieczytelny OCR nie zamieniają się w zielony wynik.
+
+ŹRÓDŁA DOKUMENTACJI SPRAWDZONE 2026-11-05
+https://docs.x.ai/grok-bot/bots
+https://docs.x.ai/grok-bot/chat-and-collaboration
+https://docs.x.ai/grok-bot/files-and-results
+https://docs.x.ai/grok-bot/skills-routines-and-automations
+https://learn.chatgpt.com/docs/projects?surface=app
+https://luma.com/spacexai-gjig
+Instrukcje opisują udokumentowane możliwości; nie zostały wykonane na koncie użytkownika.

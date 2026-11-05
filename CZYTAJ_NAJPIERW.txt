@@ -1,0 +1,18 @@
+ZESTAW DOKUMENTÓW DO DEMONSTRACJI
+
+Zawartość
+3 umowy oznaczone jako Firma A, Firma B i Firma C oraz 6 opracowań ogólnych zasad bezpieczeństwa informacji. Każdy dokument jest dostępny jako PDF i TXT UTF-8. Do indeksowania wybierz jeden format, aby nie wczytywać treści dwukrotnie.
+
+Umowy
+Są to zanonimizowane kopie demonstracyjne oparte na dokumentach historycznych. Service Provider oznacza wykonawcę. Nazwy stron i klientów zastąpiono pseudonimami. Usunięto dane osób, kontakty, adresy, identyfikatory, podpisy, kwoty i progi finansowe. Usunięto również identyfikujące szczegóły projektu. Oznaczenia w nawiasach kwadratowych wskazują pominięte informacje i nie są postanowieniami umownymi.
+Zachowano treść klauzul, w tym zobowiązania do poufności, ograniczenia celu użycia, zasady podwykonawstwa, prawa własności intelektualnej i ograniczenia licencyjne. Pozostawiono terminy względne, okresy obowiązywania oraz nazwy aktów prawnych i licencji istotnych dla interpretacji. Anonimizacja nie jest zgodą kontrahenta na publikację warunków umowy i nie rozstrzyga obowiązku zachowania ich poufności.
+Firma B i Firma C zawierają tekst odczytany lokalnie ze skanów przez OCR. Możliwe są błędy odczytu i numeracji. Dokumenty służą demonstracji, a nie jako wierne odpisy lub aktualne wzorce prawne. Nie ustalano aktualności historycznych odniesień prawnych. Wnioski agenta wymagają weryfikacji przez prawnika.
+
+Materiały dotyczące ISO
+Opracowania są uogólnionymi materiałami edukacyjnymi na podstawie ogólnych zagadnień z dostarczonej dokumentacji. Nie są oficjalnym tekstem normy ISO/IEC 27001, kompletną listą jej wymagań ani opisem faktycznego wdrożenia w jakiejkolwiek firmie. Nie należy na ich podstawie ogłaszać zgodności lub niezgodności z normą.
+Nie dołączono oryginalnych polityk firmowych, raportów audytowych, rejestrów, certyfikatów osobowych, wyników pomiarów, ocen ryzyka, wykazów aktywów, schematów organizacyjnych, planów i testów awaryjnych ani wewnętrznych ustaleń. Ogólne zasady przedstawiono bez nazw firm, osób, systemów, adresów i rzeczywistych parametrów operacyjnych.
+
+Zakres paczki
+Do udostępnienia przygotowano wyłącznie zawartość tego katalogu lub odpowiadającego mu archiwum. Oryginały, prywatne ekstrakcje, obrazy źródłowe, mapowania i raporty robocze nie należą do paczki.
+Nowe pliki PDF powstały z oczyszczonego tekstu. Nie zawierają obrazów oryginałów, podpisów, załączników ani komentarzy. Usunięte informacje nie są przykryte wizualną nakładką.
+Sprawdzenie identyfikatorów nie daje gwarancji niemożliwości rozpoznania źródła po charakterystycznym brzmieniu klauzul.

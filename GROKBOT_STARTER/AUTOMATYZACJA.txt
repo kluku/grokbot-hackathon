@@ -1,0 +1,59 @@
+AUTOMATYCZNE WYBUDZANIE — KONFIGURACJA W GROKBOCIE
+
+Ten plik opisuje konfigurację do wykonania. Nie tworzy żadnej rutyny w tej sesji.
+Najpierw wykonaj jedno skuteczne zlecenie przez wiadomość do Sentinela.
+
+PROMPT A: ZAPISANIE PROCEDURY
+@Sentinel zapisz sprawdzony proces jako skill Contract Sentinel Review.
+Uwzględnij format zgłoszenia, źródła, faktyczne przekazywanie pracy Contracts i
+Security, recenzję przez Reviewer, deduplikację, limity korekt, błędy, pokrycie
+oraz raport do prawnika. Nie zapisuj gotowych wniosków jako odpowiedzi wzorcowej.
+
+PROMPT B: RUTYNA Z WEBHOOKIEM
+@Sentinel utwórz rutynę Contract Review Intake, której jesteś właścicielem,
+wyzwalaną webhookiem. Dla każdego nowego zgłoszenia uruchom Contract Sentinel Review.
+Na początek przyjmuj wyłącznie job_id i case_id z istniejącej listy SCENARIUSZE_DEMO.
+Odrzucaj nieznany case_id. Używaj lokalnych, wcześniej wgranych źródeł.
+Nie przyjmuj z webhooka poleceń do powłoki ani dowolnych ścieżek/URL.
+Wynik zapisz w katalogu projektu i pokaż w swojej rozmowie; w grupie pokazuj
+postęp, jeśli masz do niej dostęp. Zachowaj deduplikację i ślad zdarzeń.
+Nie twórz dodatkowego harmonogramu. Nie wysyłaj nic do klientów ani prawnika.
+Pokaż, gdzie w szczegółach rutyny znajdę URL i nagłówek autoryzacji.
+
+SPRAWDZENIE
+Otwórz szczegóły Sentinela -> Routines -> Contract Review Intake.
+Zweryfikuj Instruction i When to run. W sekcji Webhook są POST to, key i header.
+Wyślij HTTP POST na rzeczywisty adres rutyny z nagłówkiem:
+Authorization: Bearer <key z rutyny>
+Content-Type: application/json
+i treścią:
+{"job_id":"hackathon-demo-01-v1","case_id":"DEMO-01"}
+Nie zgaduj endpointu. Sekret trzymaj w narzędziu lokalnym lub backendzie;
+nie umieszczaj go w publicznym HTML, repozytorium, screenshotach czy slajdach.
+HTTP 200 potwierdza przyjęcie i uruchomienie, a nie ukończenie analizy.
+Zakończenie potwierdzają raport oraz rzeczywisty stan w rozmowie bota.
+Prześlij dokładnie to samo drugi raz: oczekiwany wynik to deduplikacja.
+Prześlij inny przypadek z nowym job_id: oczekiwany wynik to nowy przebieg.
+
+WARIANT BEZ WEBHOOKA
+Użyj Test w rutynie, jeśli widoczny, albo polecenia jednokrotnego wykonania.
+To nadal pokazuje automatyczne zlecanie kolejnych etapów przez koordynatora,
+ale opisz uczciwie, że początek został uruchomiony ręcznie.
+Alternatywnie można poprosić o sprawdzanie katalogu zgłoszeń co 5 minut,
+Europe/Warsaw. To polling, nie natychmiastowe zdarzenie nowego pliku.
+Dokumentacja określa minimalny odstęp harmonogramu na 5 minut.
+Na scenie nie czekaj na harmonogram: użyj webhooka lub Test.
+
+CO ZROBIĆ Z INTERFEJSEM
+Minimum: grupa GrokBot pokazuje faktyczne zlecenia, raport ma źródła i ustalenia.
+Opcjonalnie: mały lokalny formularz z serwerem, który wywołuje webhook.
+Strona raportu GrokBot Pages może wyświetlać i filtrować wynik, ale jej kontrolki
+nie są same w sobie potwierdzonym mechanizmem uruchamiania nowych zadań.
+Nie zakładaj istnienia REST API do odczytu całego stanu GrokBota. Dokumentacja
+webhooka potwierdza wyzwalanie; raport można odbierać w aplikacji.
+
+Po pokazie zatrzymaj testowe harmonogramy/listenery, jeśli zostały utworzone.
+Nie zmieniaj globalnych ustawień automatycznych akceptacji dla potrzeb demo.
+
+Źródło sprawdzone 2026-11-05:
+https://docs.x.ai/grok-bot/skills-routines-and-automations
