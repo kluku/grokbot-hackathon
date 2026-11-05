@@ -11,24 +11,14 @@ Every company that buys software, adopts AI tools or hires subcontractors has th
 ## What Grok Bot does here
 
 ```mermaid
-flowchart LR
-    U(["Admin / Sales<br/>document + plain question"])
-    subgraph GB["Grok Bot · 4 bots · shared files · persistent HARNESS rules"]
+flowchart TB
+    subgraph GB["Grok Bot"]
         S["Sentinel<br/>coordinator"]
-        C["Contracts<br/>clauses & obligations"]
-        SEC["Security<br/>data, retention, deletion"]
-        R["Reviewer<br/>re-reads sources,<br/>rejects false alarms"]
-        KB[("Signed client contracts<br/>+ security materials")]
+        S <--> C["Contracts<br/>clauses"]
+        S <--> SEC["Security<br/>data"]
+        S <--> R["Reviewer<br/>checks sources"]
     end
-    U -->|"1 · ask"| S
-    S -->|"2 · delegate in parallel"| C
-    S -->|"2 · if data is involved"| SEC
-    C -->|"3 · findings"| S
-    SEC -->|"3 · findings"| S
-    S -->|"4 · verify"| R
-    R -->|"5 · keep / soften / reject"| S
-    S -->|"6 · verdict + citations + next step"| U
-    KB -.-> C & SEC & R
+    U(["User"]) <-->|"one chat"| S
 ```
 
 - **One chat, a whole team behind it.** The user only talks to Sentinel. Sentinel decides which specialists to involve and hands the work over through **real Grok Bot bot-to-bot messages**. Each message wakes up the next bot. Nobody prompts the specialists by hand.
