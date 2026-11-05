@@ -1,0 +1,54 @@
+CONTRACT SENTINEL — WEJŚCIE, WYJŚCIE I GRANICE DEMO
+Stan dokumentacji sprawdzony 2026-11-05. To plan, nie wdrożone integracje.
+
+DZISIEJSZE DEMO
+Operator odgrywa użytkownika biznesowego w prywatnym czacie Sentinela.
+Pytania są zwykłym językiem; routing i recenzja są częścią konfiguracji.
+Najpierw kończymy Q&A, potem jeden scenariusz sprzeczności i jedno automatyczne
+wyzwolenie. Nie budujemy osobnego frontendu przed sprawnym przebiegiem.
+
+RZECZYWISTY DOSTĘP DRUGIEJ OSOBY
+Prywatny bot operatora nie jest automatycznie dostępny drugiej osobie.
+Shared Bot: członkowie zespołu Cursor z GrokBotem mogą otrzymać dostęp
+Collaborator i prowadzić własne rozmowy. Szablon tworzy kopię, a nie dostęp
+do tego samego bota. Udostępnienie wymaga sprawdzenia zasobów bota.
+Rozmowa współdzielonego bota może działać na komputerze odbiorcy; nie zakładamy,
+że ścieżki /workspace operatora oraz jego prywatni specjaliści są tam dostępni.
+Wariant wieloosobowy wymaga osobnego testu danych, routingu i uprawnień.
+
+ALTERNATYWA BEZ GROKBOTA U UŻYTKOWNIKA
+Email z pytaniem lub dokumentem → wąsko ograniczona rutyna → Sentinel →
+analiza i recenzja → odpowiedź do właściwego odbiorcy.
+Grok Bot opisuje własny adres email i wyzwalanie rutyny po nadejściu poczty.
+Wysyłka może wymagać zatwierdzenia szkicu; nie obiecujemy autonomicznego wyjścia
+przed testem. Dostęp do załączników, wiarygodność nadawcy i odbiorca wymagają
+sprawdzenia. Sam adres nadawcy w treści wiadomości nie jest autoryzacją.
+
+SLACK
+Połączona aplikacja Slack czyta/pisze jako podłączony użytkownik. To odrębna
+funkcja od triggera Slack rutyny; istniejące połączenie nie dowodzi, że trigger
+już działa. Wariant demo: ograniczony, prywatny test do samego operatora.
+Shared Bot ma także osobną integrację Slack dla zespołu, mogącą wymagać zgody
+administratora i połączenia kont członków. Nie migrujemy do niej bez testu.
+Nie wystawiamy webhooka z sekretem w publicznym formularzu ani kodzie frontendu.
+Webhook jest wejściem technicznym; formularz wymaga uwierzytelnionego backendu.
+
+POUFNA KONFIGURACJA POZA REPO
+Rzeczywiste konta, adresy, identyfikatory odbiorców i workspace, tokeny, URL-e
+webhooków i wiadomości firmowe pozostają w prywatnej konfiguracji platformy.
+Repo zawiera tylko ogólny opis, fikcyjne dane i wyniki bez danych integracji.
+
+DATY TESTOWE
+Nie nadpisujemy dat w historycznych umowach: zmieniłoby to źródła i ich hashe.
+TEST_ALERTU.json ma już fikcyjne zakończenie usług 2024-11-05 oraz okres
+24 miesięcy dla Firmy C. Nadaje się do testu przeglądu terminu.
+DEMO_ZGODA_MARKETINGOWA_B.txt dodaje osobny fikcyjny dowód zgody i embargo
+do drugiego testu marketingowego. Nie dokładaj go do trwającego pierwszego testu.
+Wynik symulacji nie zmienia stanu prawdziwych zgód ani terminów.
+
+ŹRÓDŁA
+https://docs.x.ai/grok-bot/shared-bots
+https://docs.x.ai/grok-bot/bots
+https://docs.x.ai/grok-bot/computer-and-apps
+https://docs.x.ai/grok-bot/skills-routines-and-automations
+https://docs.x.ai/grok-bot/chat-and-collaboration

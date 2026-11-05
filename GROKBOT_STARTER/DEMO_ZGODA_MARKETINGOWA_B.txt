@@ -1,0 +1,31 @@
+FIKCYJNY DOKUMENT TESTOWY — NIE JEST RZECZYWISTĄ ZGODĄ KLIENTA
+simulation: true
+scenario_id: MARKETING-B-02
+document_id: DEMO-CONSENT-B-001
+timezone: Europe/Warsaw
+
+KONTEKST SCENARIUSZA
+Ten dokument stosuje się wyłącznie w osobnym teście MARKETING-B-02 na bazie
+zanonimizowanej umowy Firmy B. Nie zmienia źródłowej umowy ani wcześniejszego
+testu pytania bez dowodu zgody. Wszystkie fakty poniżej zostały wymyślone.
+Na potrzeby tego scenariusza przyjmujemy, że osoba udzielająca zgody ma właściwe
+umocowanie i że jest to pisemna zgoda Firmy B. Nie jest to weryfikacja prawdziwej osoby.
+
+TREŚĆ FIKCYJNEJ ZGODY
+Data udzielenia zgody: 2026-11-05.
+Firma B wyraża zgodę na opublikowanie przez wykonawcę case study oznaczonego
+DEMO-CASE-B-v1 oraz użycie logo DEMO-LOGO-B-v1 wyłącznie na stronie internetowej
+wykonawcy, nie wcześniej niż 6 listopada 2026 r. o godzinie 09:00 czasu
+Europe/Warsaw. Firma B zatwierdziła treść DEMO-CASE-B-v1 oraz wskazaną wersję logo.
+Zgoda obejmuje ujawnienie informacji zawartych w tej zatwierdzonej wersji tekstu.
+Nie obejmuje dodatkowych materiałów, kodu, danych klientów ani innych informacji
+poufnych poza zatwierdzonym tekstem. Zmiana tekstu, logo lub kanału publikacji
+wymaga ponownego uzgodnienia. Pozostałe obowiązki wynikające z umowy pozostają
+bez zmian. W tym fikcyjnym scenariuszu zgoda nie została cofnięta.
+
+FAKTY TESTOWE O PLANOWANEJ PUBLIKACJI
+Planowana publikacja używa dokładnie DEMO-CASE-B-v1 i DEMO-LOGO-B-v1 na stronie
+wykonawcy. Identyfikatory oznaczają fikcyjne, już zatwierdzone wersje; nie są
+linkami do rzeczywistych materiałów. Test dotyczy interpretacji podanych faktów,
+nie porównania zawartości prawdziwej strony z załącznikiem.
+Data odniesienia scenariusza: 2026-11-05, godzina 19:00, Europe/Warsaw.

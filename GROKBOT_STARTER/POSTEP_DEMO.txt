@@ -13,13 +13,24 @@ Potwierdził też otrzymanie potwierdzeń od Contracts, Security i Reviewer.
 Według botów pamięć roli nakazuje odczytać procedurę przed zadaniem.
 Nie jest to dowód automatycznego ładowania ani trwałości w nowym kontekście.
 
-NASTĘPNY TEST — JESZCZE NIEWYKONANY W CHWILI TEGO WPISU
+TEST PYTANIA BIZNESOWEGO — WYKONANY 19:00–19:04
 Kanał użytkownika: prywatny czat z Sentinelem, bez instrukcji technicznych.
 Pytanie: „Chcemy opublikować na naszej stronie case study projektu Firmy B
 i umieścić jej logo. Czy możemy to zrobić i kiedy?”
 Sprawdzamy: automatyczny dobór źródeł i specjalistów, rzeczywistą recenzję,
 krótką odpowiedź z podstawą i następnym krokiem, brak wymyślonej daty/zgody.
 Osobna późniejsza próba sprawdzi zachowanie w nowym kontekście rozmowy.
+Wynik obserwacji: pytanie wysłano o 19:00:21, odpowiedź o 19:04:41 (4 min 20 s).
+Widoczne przekazania: Contracts, potem Reviewer (CS-10), bez instrukcji routingu
+w pytaniu. Odpowiedź końcowa nie wymieniała specjalistów; zawierała § 11.7,
+warunek zgody, brak dowodu w paczce i proponowany następny krok.
+Bot zaznaczył, że logo nie jest nazwane wprost w cytowanej klauzuli i że jest to
+interpretacja. Nie wymyślił daty ani zgody. To pierwsza próba, nie walidacja całego
+systemu ani trwałości. Czas 4:20 jest za długi na krótką demonstrację na żywo.
+Uwaga do kolejnego testu: zdanie „termin nie zależy od daty” powinno pozostać
+wnioskiem dla obecnych danych, a nie uniwersalną regułą. Nowa zgoda może zawierać
+embargo z konkretną datą. Przygotowano osobny fikcyjny dokument do tej próby:
+DEMO_ZGODA_MARKETINGOWA_B.txt. Nie został jeszcze podany botom ani przetestowany.
 
 INTERFEJS I DALSZY ZAKRES
 Demo podstawowe: użytkownik rozmawia z Sentinelem. Grupa zespołu i logi służą
