@@ -2,6 +2,10 @@
 
 ### Your next contract may break one you already signed. Four Grok Bot agents catch it before you sign.
 
+<a href="media/Contract-Sentinel-TikTok-EN.mp4"><img src="media/demo-poster.jpg" width="260" alt="Watch the 58-second demo video"></a>
+
+▶ **[Watch the 58-second demo video](media/Contract-Sentinel-TikTok-EN.mp4)**
+
 **The question every company asks, again and again:** do the new supplier contract, or the terms & conditions of the new SaaS / AI tool, conflict with what we already promised our clients?
 
 Every company that buys software, adopts AI tools or hires subcontractors has this problem. Today someone in admin reads the documents side by side, and every unclear clause becomes another question for a lawyer. That is slow, it costs money, and it is easy to miss something.
