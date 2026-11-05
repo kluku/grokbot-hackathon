@@ -1,0 +1,62 @@
+CLAUDE — DANE, DPA I AUDYT: NOTATKA OPERATORA
+Sprawdzono 2026-11-05. Nie przekazano botom w trakcie testu CLAUDE-CODE-C-01.
+Nie jest to polityka firmy, interpretacja pełnej normy ani potwierdzenie zgodności.
+
+WNIOSEK
+Wyłączenie treningu nie wystarcza do oceny dostawcy. Trzeba osobno sprawdzić
+umowę powierzenia, uprawnienia organizacji, obsługę żądań osób, usuwanie,
+retencję, podprocesorów, transfery, dowody audytowe i przepływ danych produktu.
+Nieprawidłowy skrót: „Pro/Max nie pozwala usunąć ani wyeksportować danych”.
+
+1. UPRAWNIENIA UŻYTKOWNIKA KONTA INDYWIDUALNEGO
+Anthropic opisuje eksport historii i danych konta dla Free/Pro/Max.
+Opisuje też usuwanie rozmów: z historii od razu, z backendu zwykle w 30 dni,
+z zastrzeżonymi wyjątkami. Nie dowodzi to możliwości centralnej obsługi danych
+klienta rozproszonych po prywatnych kontach pracowników ani pełnego eksportu CLI.
+https://support.claude.com/en/articles/9450526-export-your-claude-data
+https://privacy.claude.com/en/articles/7996878-can-you-delete-data-sent-via-claude
+
+2. ZOBOWIĄZANIA UMOWNE DOSTAWCY
+DPA: D.1–D.2 opisują przekazywanie żądań osób i pomoc klientowi w ich obsłudze.
+F.1–F.4 określają dostęp do raportów i możliwość audytu z warunkami i kosztami.
+H określa zwrot/usunięcie po zakończeniu umowy, z wyjątkami.
+To inne zagadnienie niż przycisk usuwania rozmowy lub brak treningu.
+Nie oznacza bezwarunkowego, natychmiastowego usuwania wszystkich kopii.
+https://www.anthropic.com/legal/data-processing-addendum
+
+3. TEAM I ENTERPRISE NIE SĄ TOŻSAME
+Eksport organizacji: dostępny dla Primary Owner w Team i Enterprise.
+Audit logs: według dokumentacji tylko Enterprise; logi zdarzeń nie są pełną
+treścią rozmów. Własna polityka retencji: funkcja Enterprise, z ograniczeniami
+zakresu produktu i wyjątkami. Sam zakup planu nie dowodzi włączenia ustawień.
+https://support.claude.com/en/articles/13346720-export-your-organization-s-data
+https://support.claude.com/en/articles/9970975-access-audit-logs
+https://support.claude.com/en/articles/10440198-configure-custom-data-retention-controls-for-enterprise-plans
+
+4. SZCZEGÓLNIE WAŻNE DLA CLAUDE CODE
+Compliance API dla sesji opisuje odczyt transkryptów lokalnego Claude Code
+przy logowaniu do Enterprise i włączonym Compliance API. Endpointy sesji
+są tylko do odczytu. Opisane wyłączenia obejmują m.in. sesje API-key,
+platformy pośredniczące, Claude Code cloud i sesje z ZDR.
+Nie należy przenosić funkcji usuwania czatów z endpointów chat/files/projects
+na endpointy sesji CLI ani utożsamiać obu zbiorów danych.
+Trzeba uwzględnić też pliki lokalne, kopie i logi poza systemem dostawcy.
+https://platform.claude.com/docs/en/manage-claude/compliance-sessions
+https://platform.claude.com/docs/en/manage-claude/compliance-content-data
+https://code.claude.com/docs/en/data-usage
+
+5. ISO/IEC 27001
+Oficjalny opis ISO dotyczy systemu zarządzania bezpieczeństwem informacji
+i zarządzania ryzykiem. Nie wyprowadza się z niego automatycznie obowiązku
+zakupu konkretnego planu Claude. Ocena dla organizacji wymaga jej zakresu ISMS,
+analizy ryzyka, deklaracji stosowania i przyjętych polityk oraz obowiązków umownych.
+Materiały edukacyjne ISO w repo nie zastępują tych dokumentów.
+https://www.iso.org/standard/27001
+
+PYTANIA KONTROLNE DO WYNIKU BOTÓW
+Czy firma potrafi znaleźć dane określonej osoby, obsłużyć żądanie, dopilnować
+usunięcia w wymaganym zakresie i terminie oraz przedstawić dowód wykonania?
+Które gwarancje pochodzą z DPA, które z funkcji planu, a które z własnego procesu?
+Czy przedstawiono wyjątki i rzeczywisty zakres lokalnego Claude Code?
+Jeżeli brak źródła lub dowodu funkcji, wynik to brak danych do sprawdzenia,
+a nie ogólny zakaz Pro/Max ani automatyczna akceptacja Team/Enterprise.
