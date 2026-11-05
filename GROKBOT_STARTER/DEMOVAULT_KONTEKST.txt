@@ -1,0 +1,26 @@
+DEMOVAULT — PLANOWANY ZAKUP DLA PROJEKTU FIRMY B
+FIKCYJNE FAKTY SCENARIUSZA. NIE OPISUJĄ RZECZYWISTEJ ZGODY ANI TERMINÓW FIRMY.
+case_id: DEMOVAULT-B-01
+Data odniesienia: 2026-11-05, Europe/Warsaw.
+
+Chcemy podpisać umowę DemoVault i objąć kopią zapasową poufny kod oraz
+specyfikację projektu Firmy B. Nie ma w tych plikach danych osobowych.
+Historyczna umowa Firmy B z istniejącej bazy jest dla tego testu obowiązująca.
+
+Fakty testowe:
+- Pierwsza kopia powstanie 2026-11-05. Dla uproszczenia analizujemy tę jedną kopię.
+- Umowa wykonawcy z Firmą B kończy się 2026-11-15, nie tylko etap projektu.
+  Daty są fikcyjne. Okresy liczymy kalendarzowo, dzień po zdarzeniu jest dniem 1.
+- Kopia leży na dysku komputera wykonawcy; wykonawca ma ten komputer i nośnik
+  pod swoją kontrolą. Nie chodzi wyłącznie o kopię na serwerze osoby trzeciej.
+- Zgoda Firmy B na DemoVault jako Permitted Subcontractor została wcześniej
+  udzielona pisemnie — przyjmujemy to jako fikcyjny fakt scenariusza.
+- Zgoda dotyczy dostępu niezbędnego do usługi, nie zwalnia z poufności,
+  nie uznaje plików za publiczne i nie zmienia obowiązków zwrotu/usuwania.
+- W tym scenariuszu wymagane uzgodnienia poufności i praw do materiałów
+  z podwykonawcą zostały zapewnione. Brak innych aneksów zmieniających umowę B.
+- Nie istnieje obowiązek ustawowy lub nakaz zachowania tych plików ani legal hold.
+- Dysponujemy treścią nowego projektu DEMOVAULT-v1; umowy nie podpisano.
+
+Nie załączamy ponownie umowy Firmy B: znajduje się już w bazie Sentinela.
+Ten opis to kontekst zakupu, nie gotowa ocena ryzyka ani polecenia dla agentów.

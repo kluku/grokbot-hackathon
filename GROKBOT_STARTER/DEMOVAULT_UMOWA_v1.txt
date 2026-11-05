@@ -1,0 +1,38 @@
+DEMOVAULT — PROJEKT UMOWY USŁUGI KOPII ZAPASOWYCH
+FIKCYJNY DOKUMENT DO HACKATHONU. NIE JEST OFERTĄ ANI PODPISANĄ UMOWĄ.
+document_id: DEMOVAULT-v1
+Data projektu: 2026-11-05
+Strony: DemoVault (Dostawca) i Wykonawca (Zamawiający).
+
+§ 1. Przedmiot usługi
+1. Dostawca dostarcza i obsługuje oprogramowanie do wykonywania zaszyfrowanych
+kopii zapasowych plików wskazanych przez Zamawiającego.
+2. Kopie zapisywane są na dyskach komputera Zamawiającego. Nie są wysyłane
+na serwery Dostawcy. Dostawca może uzyskać dostęp do plików w ramach wsparcia
+technicznego, wyłącznie na polecenie Zamawiającego.
+
+§ 2. Poufność i dozwolony cel
+1. Dostawca zachowuje informacje w poufności i wykorzystuje je wyłącznie
+do świadczenia usługi. Personel jest związany równoważnymi obowiązkami poufności.
+2. Dostawca nie wykorzystuje plików do treningu modeli, marketingu ani rozwoju
+innych produktów. Nie nabywa praw do treści plików i nie udostępnia ich dalej.
+
+§ 3. Obowiązkowe przechowywanie
+1. Każda kopia zapasowa musi być przechowywana przez co najmniej 180 dni
+kalendarzowych od jej utworzenia. W tym okresie Zamawiający zobowiązuje się
+jej nie usuwać, nie niszczyć nośnika ani nie niszczyć kluczy szyfrujących.
+2. Oprogramowanie blokuje standardową funkcję usunięcia kopii do końca tego
+okresu. Dostawca nie oferuje procedury wcześniejszego odblokowania lub usunięcia.
+3. Minimalny okres dotyczy także kopii danych klientów Zamawiającego i obowiązuje
+po zakończeniu umowy Zamawiającego z jego klientem, otrzymaniu żądania usunięcia
+od klienta lub zakończeniu usługi DemoVault. Umowa nie przewiduje wyjątku
+pozwalającego skrócić ten okres na potrzeby takich zobowiązań Zamawiającego.
+
+§ 4. Odtwarzanie i eksport
+1. W czasie przechowywania Zamawiający może odtworzyć dane i wyeksportować kopię.
+2. Eksport ani zwrot plików klientowi nie usuwa kopii zapasowej i nie skraca
+okresu z § 3. Po jego upływie kopię można usunąć i otrzymać potwierdzenie.
+
+§ 5. Wersja umowy
+Zmiana § 3 wymaga pisemnego uzgodnienia stron. Niniejszy projekt nie zmienia
+umów Zamawiającego z jego klientami. Warunki cenowe pozostają poza zakresem demo.

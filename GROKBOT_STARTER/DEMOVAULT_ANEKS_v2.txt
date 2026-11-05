@@ -1,0 +1,24 @@
+DEMOVAULT — PROPONOWANA ZMIANA PROJEKTU UMOWY
+FIKCYJNY DOKUMENT DO HACKATHONU. NIE JEST PODPISANYM ANEKSEM.
+document_id: DEMOVAULT-v2-amendment
+Dotyczy projektu DEMOVAULT-v1 z 2026-11-05.
+
+§ 1. Zastąpienie zasad przechowywania
+Strony proponują zastąpić cały § 3 projektu DEMOVAULT-v1 następującym tekstem:
+1. Domyślny okres przechowywania kopii wynosi 180 dni, chyba że Zamawiający
+zleci wcześniejsze usunięcie. Nie ma minimalnego nieodwołalnego okresu retencji.
+2. Na żądanie Zamawiającego Dostawca zapewnia usunięcie wszystkich wskazanych
+kopii objętych usługą, również kopii zapasowych, nie później niż w ciągu
+7 dni kalendarzowych od otrzymania żądania. Dostawca odblokowuje wymagane
+funkcje i przekazuje potwierdzenie wykonania. Zamawiający może też usunąć je sam.
+3. Zakończenie umowy z klientem Zamawiającego jest dopuszczalną przyczyną
+takiego żądania. Nie wiąże się z karą ani koniecznością zachowania kluczy.
+
+§ 2. Pierwszeństwo
+Powyższe zasady mają pierwszeństwo przed sprzecznymi zapisami § 4 projektu v1.
+Pozostała treść projektu nie zmienia się. Usunięcie kopii nie zastępuje zwrotu
+informacji klientowi ani obowiązków dotyczących innych kopii u Zamawiającego.
+
+§ 3. Status
+To alternatywny projekt do oceny. Należy oceniać, jak zmieniłyby się obowiązki
+po jego skutecznym uzgodnieniu, bez twierdzenia, że został już zawarty.

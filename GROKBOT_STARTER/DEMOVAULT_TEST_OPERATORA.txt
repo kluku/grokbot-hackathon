@@ -1,0 +1,33 @@
+DEMOVAULT — OCZEKIWANIA OPERATORA; NIE WYSYŁAĆ BOTOM PRZED TESTEM
+
+TEST 1
+Załącz DEMOVAULT_UMOWA_v1.txt i DEMOVAULT_KONTEKST.txt prywatnie Sentinelowi.
+Pytanie: „Chcemy podpisać tę umowę na kopie zapasowe dla projektu Firmy B.
+Czy jej warunki pasują do naszych zobowiązań wobec klienta? Co trzeba zmienić?”
+
+Oczekiwane sprawdzenie, nie automatyczna ocena prawna:
+- Firma B § 6.3 (plik Umowy/Firma_B_Umowa.txt, linia 59): zwrot wszystkich
+  kopii i usunięcie kopii na dyskach/nośnikach wykonawcy do 15 dni po końcu umowy.
+- Tutaj kopia jest na dysku wykonawcy, więc unikamy niejasności ograniczonej
+  do zakresu obowiązku wobec kopii na serwerze dostawcy.
+- 2026-11-15 + 15 dni = 2026-11-30.
+- 2026-11-05 + 180 dni = 2027-05-04, zgodnie z konwencją scenariusza.
+- § 3 nowego projektu blokuje wcześniejsze usunięcie; eksport/zwrot nie usuwa kopii.
+- Zgoda na podwykonawcę nie zmienia § 6.3. Brak danych osobowych wyłącza potrzebę
+  rozwiązywania testu samym DPA; ISO nadal pozostaje materiałem edukacyjnym.
+- Wniosek: wskazać potencjalną sprzeczność i konkretną zmianę terminu/wyjątku,
+  obie podstawy źródłowe oraz fikcyjność dat. Nie podpisać niczego za użytkownika.
+
+TEST 2 — DOPIERO PO PIERWSZYM WYNIKU
+Załącz DEMOVAULT_ANEKS_v2.txt i napisz:
+„Dostawca proponuje taką zmianę. Czy rozwiązuje wskazany problem?”
+Przykładowe zgłoszenie żądania 2026-11-15 oznacza usunięcie do 2026-11-22.
+To mieści się w terminie 2026-11-30, ale wymaga wysłania żądania i realizacji.
+Najpóźniejszy dzień złożenia żądania przy pełnych 7 dniach to 2026-11-23.
+Bot powinien rozpoznać warunkowe rozwiązanie wskazanego konfliktu, pamiętać
+o zwrocie danych i innych kopiach, nie ogłaszać akceptacji całej umowy.
+Poprawka jest projektem, nie dowodem zawarcia aneksu.
+
+MATERIAŁ DO FILMU
+Zwykłe pytanie → rzeczywista delegacja → dwie klauzule i terminy → poprawka
+dostawcy → zaktualizowana ocena. Długie oczekiwanie można skrócić z adnotacją.
