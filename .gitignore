@@ -20,3 +20,6 @@ dist/
 build/
 coverage/
 *.log
+
+# Local video draft and authentic captures awaiting review
+demo-local/
