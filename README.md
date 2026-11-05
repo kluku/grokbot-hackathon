@@ -2,6 +2,8 @@
 
 **Nowa umowa nie kasuje starych zobowiązań. Nasze boty znajdują konflikt, zanim ją podpiszesz.**
 
+Czy nowa umowa z dostawcą albo terms & conditions nowego narzędzia nie są sprzeczne z umowami, które firma już podpisała? To powtarzalny problem wielu firm kupujących oprogramowanie, korzystających z AI i zatrudniających podwykonawców. Administracja porównuje dokumenty, a niejasności wracają jako kolejne pytania do prawników.
+
 Zespół chce kupić narzędzie do kopii zapasowych. Dostawca wymaga przechowywania danych przez **180 dni**. Umowa z klientem każe usunąć je **w ciągu 15 dni od zakończenia współpracy**. Kto połączy te dwa zapisy?
 
 Contract Sentinel robi to w **Grok Bot**. Użytkownik załącza dokument i zadaje zwykłe pytanie. Sentinel sam zleca analizę innym botom, zbiera wyniki i uruchamia recenzję. Oddaje **wniosek, cytaty i konkretny następny krok**.
@@ -14,7 +16,7 @@ Contract Sentinel robi to w **Grok Bot**. Użytkownik załącza dokument i zadaj
 | „Dostawca proponuje taką zmianę. Czy rozwiązuje wskazany problem?” | Ocena zmieniona na **warunkowo pozytywną**: po uzgodnieniu aneksu usunięcie na żądanie w 7 dni. |
 | Co trzeba zrobić dalej? | Żądanie otrzymane do **23 listopada** pozwala dotrzymać terminu **30 listopada** w scenariuszu. Pozostają zwrot danych i potwierdzenie usunięcia. |
 
-**Wartość:** biznes dostaje odpowiedź na swoje pytanie, a osoba podejmująca decyzję — wskazany problem, źródła i propozycję rozwiązania. Nie musi zaczynać od przeszukiwania całej paczki umów.
+**Wartość biznesowa: oszczędność czasu administracji i ograniczenie kosztów konsultacji prawnych.** System wykonuje wstępne porównanie, wskazuje cytaty i proponuje następny krok. Administracja nie zaczyna od przeszukiwania całej paczki umów; do prawnika może skierować konkretne wyjątki i pytania wymagające rozstrzygnięcia. To mechanizm ograniczenia ręcznej pracy i rutynowych konsultacji — skalę oszczędności zweryfikujemy w pilotażu. PoC nie mierzył jeszcze ROI; decyzja pozostaje po stronie człowieka.
 
 ## Cztery boty. Jeden rozmówca dla użytkownika.
 
