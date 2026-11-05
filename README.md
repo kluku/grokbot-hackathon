@@ -24,7 +24,7 @@ Boty: **Sentinel** koordynuje pracę, **Contracts** analizuje klauzule, **Securi
 
 Kolejny test PoC: [scenariusz Claude Code Pro / Team](GROKBOT_STARTER/CLAUDE_CODE_SCENARIUSZ.txt) i [indeks oficjalnych źródeł](GROKBOT_STARTER/CLAUDE_CODE_ZRODLA.txt). [Kryteria operatora](GROKBOT_STARTER/CLAUDE_CODE_TEST_OPERATORA.txt) służą ocenie wyniku, nie są załącznikiem dla botów. Aktualny zakres demo ogranicza się do prywatnego czatu Sentinela; integracje zewnętrzne są odłożone.
 
-Test nowej umowy DemoVault: wyślij Sentinelowi [projekt umowy](GROKBOT_STARTER/DEMOVAULT_UMOWA_v1.txt) i [fikcyjny kontekst zakupu](GROKBOT_STARTER/DEMOVAULT_KONTEKST.txt). Dopiero po pierwszym wyniku wyślij [proponowaną poprawkę](GROKBOT_STARTER/DEMOVAULT_ANEKS_v2.txt). [Oczekiwania operatora](GROKBOT_STARTER/DEMOVAULT_TEST_OPERATORA.txt) pozostają poza wejściem botów. Test przygotowano, ale jego wynik nie został jeszcze zaobserwowany.
+Test nowej umowy DemoVault: wyślij Sentinelowi [projekt umowy](GROKBOT_STARTER/DEMOVAULT_UMOWA_v1.txt) i [fikcyjny kontekst zakupu](GROKBOT_STARTER/DEMOVAULT_KONTEKST.txt). Dopiero po pierwszym wyniku wyślij [proponowaną poprawkę](GROKBOT_STARTER/DEMOVAULT_ANEKS_v2.txt). [Oczekiwania operatora](GROKBOT_STARTER/DEMOVAULT_TEST_OPERATORA.txt) pozostają poza wejściem botów. W próbie v1 Sentinel wykrył konflikt i zaproponował zmianę po delegacji i recenzji; ograniczenia wyniku zapisano w dzienniku postępu. Próba poprawki v2 pozostaje do wykonania.
 
 ## Zawartość
 

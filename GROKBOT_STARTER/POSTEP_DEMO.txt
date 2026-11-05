@@ -124,3 +124,26 @@ dysku wykonawcy przez 180 dni; sprawdzenie ma zestawić go z B § 6.3 (15 dni
 po zakończeniu umowy). Daty sprawdzono obliczeniowo: 2026-11-30 i 2027-05-04.
 Poprawkę v2 i kryteria operatora należy zatrzymać do końca pierwszej próby.
 Status: materiały gotowe, test w GrokBocie jeszcze niezaobserwowany.
+
+WYNIK DEMOVAULT-v1 — 2026-11-05
+Powyższy status przygotowania zastępuje obserwacja wykonanej próby:
+użytkownik wysłał oba pliki i naturalne pytanie o 20:00:25; odpowiedź końcowa
+Sentinela pojawiła się o 20:06:59 (6 min 34 s), potwierdzenie recenzji o 20:07:05.
+Widoczna delegacja: Contracts CS-18, Security CS-19, Reviewer CS-20.
+Sentinel wykrył konflikt B § 6.3 / DemoVault § 3, przytoczył oba dokumenty,
+rozróżnił zgodę na podwykonawcę od zmiany obowiązku usunięcia i zaproponował
+negocjację wyjątku w § 3. Alternatywy: zmiana umowy B albo wyłączenie jej danych
+z kopii DemoVault. Prawidłowo wskazał fikcyjność dat i termin 2026-11-30.
+Nie wysyłano do botów oczekiwań operatora ani proponowanej poprawki v2.
+
+Ograniczenia zaobserwowanego wyniku:
+- Sentinel podał 2027-05-05 jako najwcześniejszy dzień usunięcia. Obliczeniowo
+  180. dzień po 2026-11-05 to 2027-05-04; 5 maja jest następnym dniem. Rozbieżność
+  może oznaczać utrzymanie kopii przez cały 180. dzień. Wymaga jawnego określenia
+  granicy czasowej, a nie uznania obu dat za identyczne. Nie zmienia konfliktu.
+- Zdanie „Żaden przepis prawa nie wymaga tu przechowywania tych plików” powinno
+  być wyraźnie ograniczone do przyjętych faktów fikcyjnego scenariusza, nie
+  odczytywane jako samodzielny wynik badania prawa.
+- Odpowiedź jest dłuższa niż docelowa krótka odpowiedź biznesowa. Recenzja botów
+  nie stanowi niezależnej walidacji całej oceny prawnej.
+Następny krok: operator przekazuje propozycję poprawki v2 w tej samej rozmowie.
