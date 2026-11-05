@@ -147,3 +147,30 @@ Ograniczenia zaobserwowanego wyniku:
 - Odpowiedź jest dłuższa niż docelowa krótka odpowiedź biznesowa. Recenzja botów
   nie stanowi niezależnej walidacji całej oceny prawnej.
 Następny krok: operator przekazuje propozycję poprawki v2 w tej samej rozmowie.
+
+WYNIK DEMOVAULT-v2 — 2026-11-05
+Użytkownik przekazał aneks i pytanie o 20:09:25. Sentinel sam zlecił analizę
+Contracts (CS-21), następnie recenzję Reviewerowi (CS-22). Odpowiedź końcowa
+pojawiła się o 20:13:50 (4 min 25 s), potwierdzenie recenzji o 20:13:56.
+Nie ingerowano w rozmowę botów. Kryteria operatora nie były ich wejściem.
+
+Zaobserwowane zachowanie:
+- Zmiana oceny na warunkowo pozytywną po pisemnym uzgodnieniu aneksu; projekt
+  nie został potraktowany jako już zawarta umowa.
+- Termin otrzymania żądania 2026-11-23 przy pełnych 7 dniach realizacji do
+  2026-11-30. Zalecenie wcześniejszego działania dla uzyskania potwierdzenia.
+- Zachowane obowiązki zwrotu materiałów, pozostałych kopii i poświadczenia
+  Firmie B; zgoda na podwykonawcę nie uchyla tych obowiązków.
+- Propozycja ustalenia pisemnej formy żądania i potwierdzenia.
+
+Ograniczenia:
+- „Bez żądania kopia leży co najmniej do 4 maja 2027 r.” jest nadmiernym
+  uproszczeniem. V2 przewiduje domyślną retencję, nie nieodwołalne minimum,
+  oraz wprost pozwala Zamawiającemu samodzielnie usunąć kopię. Również żądanie
+  nie jest jedynym sposobem wykonania usunięcia według tego projektu.
+- Wyliczenie 23 listopada dotyczy zakończenia umowy w fikcyjnym scenariuszu;
+  nie dowodzi, że 7 dni wystarczy przy każdym wcześniejszym żądaniu Firmy B.
+- To ocena wskazanego konfliktu w PoC, nie akceptacja całej umowy ani
+  niezależnie potwierdzona pełna poprawność prawna.
+Oba etapy DemoVault zakończone. Materiał pokazuje wykrycie sprzeczności,
+proponowaną zmianę i ponowną ocenę na podstawie nowego dokumentu.
