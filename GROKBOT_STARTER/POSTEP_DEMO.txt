@@ -59,7 +59,23 @@ Opis użycia jest fikcyjny i dotyczy Firmy C; status zgody klienta jest nieznany
 Oficjalne źródła odczytano 2026-11-05 i zapisano ich indeks z datami i sekcjami.
 Właściwa regionalna wersja Consumer Terms wymaga dalszego potwierdzenia.
 Pełne warunki mają być odczytane przez boty; indeks nie jest ich pełną kopią.
-Test jeszcze nie został uruchomiony przy dodaniu tego wpisu.
+Test uruchomiono o 19:25:57; odpowiedź końcowa o 19:33:51 (7 min 54 s).
+Widoczne etapy: Contracts CS-13, Security CS-14, Reviewer CS-15, synteza Sentinela.
+Reviewer zgłosił poprawki i lukę spójności między Team+DPA a § 22(b)(d) UM-C.
+Raport końcowy rozróżnił brak dowodu zgody od braku zgody; wskazał DPA, retencję,
+region i dane osobowe. Wynik nie jest pełnym zaliczeniem jakości odpowiedzi:
+- „Team z DPA to jedyna droga” nie ogranicza wniosku do dwóch badanych wariantów
+  i brzmi jak wykluczenie niebadanych alternatyw, w tym Enterprise.
+- Kluczowe twierdzenie o Consumer Terms nie ma w odpowiedzi sekcji i odsyłacza
+  dostawcy; skrót o ulepszaniu usług nie wyjaśnia relacji do wyłączonego treningu.
+- Brak jawnego statusu regionalnej wersji Consumer Terms w odpowiedzi końcowej.
+- Braki wymagają odszukania lub potwierdzenia zgody przed ewentualnym uzyskaniem
+  nowej; następny krok był sformułowany tylko jako uzyskanie zgody.
+Operator zweryfikował dodatkowo zagadnienia dostępu/usuwania/audytu w osobnej
+notatce CLAUDE_AUDYT_DANE_NOTATKA.txt; nie podawał jej botom w trakcie tego testu.
+Należy rozdzielać prawa użytkownika Pro/Max, zobowiązania DPA i funkcje Enterprise.
+Do filmu można pokazać prawdziwy przebieg, bez prezentowania go jako bezbłędnej
+oceny prawnej lub pełnej weryfikacji zgodności ISO.
 
 Demo podstawowe: użytkownik rozmawia z Sentinelem. Grupa zespołu i logi służą
 operatorowi do inspekcji procesu. Użytkownik nie musi znać pozostałych botów.
