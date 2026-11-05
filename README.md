@@ -6,8 +6,6 @@
 
 Every company that buys software, adopts AI tools or hires subcontractors has this problem. Today someone in admin reads the documents side by side, and every unclear clause becomes another question for a lawyer. That is slow, it costs money, and it is easy to miss something.
 
-> **Example from our live demo.** A backup vendor requires **180 days** of data retention. A signed client contract requires deletion **within 15 days** of termination. If you sign the vendor contract, you breach the client contract.
-
 ## What Grok Bot does here
 
 ```mermaid
