@@ -26,11 +26,31 @@ w pytaniu. Odpowiedź końcowa nie wymieniała specjalistów; zawierała § 11.7
 warunek zgody, brak dowodu w paczce i proponowany następny krok.
 Bot zaznaczył, że logo nie jest nazwane wprost w cytowanej klauzuli i że jest to
 interpretacja. Nie wymyślił daty ani zgody. To pierwsza próba, nie walidacja całego
-systemu ani trwałości. Czas 4:20 jest za długi na krótką demonstrację na żywo.
+systemu ani trwałości. Czas 4:20 utrudnia krótką demonstrację na żywo.
+Decyzja użytkownika po teście: optymalizacja opóźnienia nie jest priorytetem
+na hackathon. W docelowej pracy asynchronicznej akceptowalne może być 5 minut,
+a nawet godzina. Rozważany materiał zgłoszeniowy: krótki film, z oznaczonym
+skróceniem oczekiwania. Nie przedstawiamy montażu jako czasu rzeczywistego.
 Uwaga do kolejnego testu: zdanie „termin nie zależy od daty” powinno pozostać
 wnioskiem dla obecnych danych, a nie uniwersalną regułą. Nowa zgoda może zawierać
 embargo z konkretną datą. Przygotowano osobny fikcyjny dokument do tej próby:
-DEMO_ZGODA_MARKETINGOWA_B.txt. Nie został jeszcze podany botom ani przetestowany.
+DEMO_ZGODA_MARKETINGOWA_B.txt. Wynik próby poniżej.
+
+TEST DODATKOWEJ ZGODY — WYKONANY 19:08–19:12
+Pytanie i załącznik wysłano o 19:08:19. Sentinel przekazał pracę Contracts
+o 19:08:44, następnie Reviewerowi (CS-12). Wynik końcowy: 19:12:41 (4 min 22 s).
+Bot zmienił odpowiedź po nowym dowodzie: publikacja najwcześniej 2026-11-06
+o 09:00 Europe/Warsaw, tylko zatwierdzone wersje i wskazana strona internetowa.
+Zachował oznaczenie fikcyjnej zgody i uwzględnił embargo. Nie publikował niczego.
+Główny warunek scenariusza został rozpoznany poprawnie; nie oznacza to pełnej
+walidacji odpowiedzi. Do dopracowania:
+- „za 14 godzin” jest zgodne z fikcyjnym as_of=19:00, ale odpowiedź nie zaznacza
+  wyraźnie tej podstawy. Warto preferować datę bezwzględną.
+- Fragment o wyłączeniu dodatkowych materiałów ujęto w cudzysłów ze zmienionymi
+  końcówkami wyrazów względem dokumentu. Parafraza nie powinna udawać cytatu.
+- Dodatkowy warunek sposobu doręczenia z § 11.6 wymaga osobnego sprawdzenia
+  zakresu zastosowania do zgody; nie uznajemy go za zweryfikowany samym komunikatem.
+To zapis obserwacji, bez restartowania testu i bez zmiany źródłowych umów.
 
 INTERFEJS I DALSZY ZAKRES
 Demo podstawowe: użytkownik rozmawia z Sentinelem. Grupa zespołu i logi służą
