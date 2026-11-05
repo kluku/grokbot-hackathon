@@ -2,9 +2,9 @@
 
 ### Your next contract may break one you already signed. Four Grok Bot agents catch it before you sign.
 
-<a href="media/Contract-Sentinel-TikTok-EN.mp4"><img src="media/demo-poster.jpg" width="260" alt="Watch the 58-second demo video"></a>
 
-▶ **[Watch the 58-second demo video](media/Contract-Sentinel-TikTok-EN.mp4)**
+https://github.com/user-attachments/assets/12817a0b-6654-4598-a721-0d8aceeec303
+
 
 **The question every company asks, again and again:** do the new supplier contract, or the terms & conditions of the new SaaS / AI tool, conflict with what we already promised our clients?
 
