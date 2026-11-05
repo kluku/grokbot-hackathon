@@ -53,6 +53,22 @@ walidacji odpowiedzi. Do dopracowania:
 To zapis obserwacji, bez restartowania testu i bez zmiany źródłowych umów.
 
 INTERFEJS I DALSZY ZAKRES
+HARNESS v1.1 — korekta zlecona 19:38:49, raport 19:42:45, potwierdzenie zespołu
+19:42:53. Sentinel zgłosił zapis nowej wersji i zachowanie v1.0. Reviewer CS-16
+ocenił dziewięć twierdzeń: siedem OK i dwa do poprawy; Sentinel zgłosił naniesienie
+poprawek dotyczących nazwy sekcji i wyjątku feedback. W odpowiedzi są linki,
+ograniczenie porównania do Pro/Team i jawna niepewność wersji regionalnej.
+Nadal nie uznajemy całej odpowiedzi za zweryfikowaną:
+- „DPA dotyczy danych osobowych” jest zbyt szerokim uproszczeniem: w oficjalnym
+  DPA definicja A.4 Customer Data jest szersza niż A.2 Customer Personal Data;
+  zakresy poszczególnych postanowień trzeba oceniać osobno, wraz z Commercial
+  Terms E dotyczącą poufności Customer Content.
+- „Retencja w obu planach to 30 dni” pomija zakres zbioru danych i wyjątki.
+- Niepotwierdzona regionalna właściwość Consumer Terms ogranicza stanowczość
+  wniosku o dopuszczalności użycia zawodowego; sam wniosek nie jest poradą prawną.
+Trwałość w nowym kontekście nadal nieprzetestowana. Repo zawiera opracowaną
+konfigurację v1.1, nie niezależnie pobrany eksport pliku z komputera GrokBota.
+
 Przygotowano test CLAUDE-CODE-C-01 na rzeczywistych źródłach dostawcy:
 Pro (bez DPA, trening wyłączony) kontra Team (z DPA, bez opt-in do treningu).
 Opis użycia jest fikcyjny i dotyczy Firmy C; status zgody klienta jest nieznany.
