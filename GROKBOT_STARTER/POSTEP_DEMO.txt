@@ -1,0 +1,40 @@
+CONTRACT SENTINEL — POSTĘP DEMO
+2026-11-05, Europe/Warsaw
+
+18:42 — Zakończono cykl kart v2 (CS-04–CS-08).
+Dowód: odczyt wspólnego czatu w GrokBocie. Reviewer zgłosił 4/4 ostatnich
+poprawek jako OK; Sentinel zamknął cykl. To obserwacja komunikatów i przekazań,
+nie niezależny audyt plików wynikowych. Nierozstrzygnięcia źródłowe pozostają jawne.
+
+18:53 — Zgłoszono wdrożenie HARNESS v1.0.
+Dowód: prywatny czat Sentinela. Sentinel podał zapis tasks/HARNESS.md,
+aktualizację tasks/ZASADY_ZESPOLU.md i utworzenie tasks/LOG_PRZEBIEGOW.md.
+Potwierdził też otrzymanie potwierdzeń od Contracts, Security i Reviewer.
+Według botów pamięć roli nakazuje odczytać procedurę przed zadaniem.
+Nie jest to dowód automatycznego ładowania ani trwałości w nowym kontekście.
+
+NASTĘPNY TEST — JESZCZE NIEWYKONANY W CHWILI TEGO WPISU
+Kanał użytkownika: prywatny czat z Sentinelem, bez instrukcji technicznych.
+Pytanie: „Chcemy opublikować na naszej stronie case study projektu Firmy B
+i umieścić jej logo. Czy możemy to zrobić i kiedy?”
+Sprawdzamy: automatyczny dobór źródeł i specjalistów, rzeczywistą recenzję,
+krótką odpowiedź z podstawą i następnym krokiem, brak wymyślonej daty/zgody.
+Osobna późniejsza próba sprawdzi zachowanie w nowym kontekście rozmowy.
+
+INTERFEJS I DALSZY ZAKRES
+Demo podstawowe: użytkownik rozmawia z Sentinelem. Grupa zespołu i logi służą
+operatorowi do inspekcji procesu. Użytkownik nie musi znać pozostałych botów.
+Propozycja późniejszego wejścia: wskazane miejsce na nowe dokumenty → zdarzenie
+lub okresowe sprawdzenie → rejestr zleceń → Sentinel → recenzja → wynik.
+Propozycja późniejszego wyjścia: odpowiedź w rozmowie lub wybrana integracja.
+Nie oznacza to wdrożenia obserwatora plików, webhooka, harmonogramu ani wysyłki.
+Przy połączeniu webhooka i okresowej kontroli oba wejścia muszą korzystać
+z tego samego rejestru i deduplikacji, aby nie analizować dokumentu dwa razy.
+
+GRANICA PRYWATNEJ INTEGRACJI DEMONSTRACYJNEJ
+Firmowe połączenie Slack operatora jest wyłącznie lokalnym/prywatnym elementem
+demo. Do repo nie trafiają tokeny, webhooki, identyfikatory workspace/użytkowników/
+kanałów, eksporty wiadomości ani rzeczywista konfiguracja tej integracji.
+Repo może opisywać wyłącznie ogólny interfejs i używać fikcyjnych placeholderów.
+Powiadomienie demonstracyjne do samego operatora wymaga osobnej konfiguracji;
+nie zostało wykonane ani przetestowane w ramach tego etapu.

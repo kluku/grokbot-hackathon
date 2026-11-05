@@ -33,7 +33,7 @@ Do analizy wybierz jeden format dokumentów, aby nie wczytywać ich podwójnie.
 
 ## Stan i interpretacja wyników
 
-W GrokBocie uruchomiono cztery boty. W obserwowanym czacie 2026-11-05 zakończyły przygotowanie kart i pytań bezpieczeństwa oraz cykl poprawek v2 z recenzją (CS-04–CS-08). To potwierdzenie przebiegu widocznego w aplikacji, nie niezależny audyt wszystkich wyników. Stała procedura obsługi prostych pytań wymaga wdrożenia i testu trwałości. Webhook i harmonogramy pozostają nieprzetestowane.
+W GrokBocie uruchomiono cztery boty. W obserwowanym czacie 2026-11-05 zakończyły przygotowanie kart i pytań bezpieczeństwa oraz cykl poprawek v2 z recenzją (CS-04–CS-08). To potwierdzenie przebiegu widocznego w aplikacji, nie niezależny audyt wszystkich wyników. Boty potwierdziły wdrożenie stałej procedury HARNESS v1.0; test zwykłego pytania i test trwałości w nowym kontekście pozostają do wykonania. Webhook i harmonogramy pozostają nieprzetestowane. Szczegóły i granice prywatnych integracji opisuje [dziennik postępu](GROKBOT_STARTER/POSTEP_DEMO.txt).
 
 Umowy są historycznymi kopiami demonstracyjnymi; część tekstu pochodzi z OCR. Materiały `ISO/` nie są tekstem normy ani obowiązującymi politykami firmy. Warunki DemoAI i daty w próbach alertów są fikcyjne. Wyniki analizy nie oznaczają automatycznej akceptacji umowy, zgody na publikację ani potwierdzenia zgodności z ISO.
 
